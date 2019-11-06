@@ -55,5 +55,6 @@ collections:
         name: "gallery"
         widget: "image"
         media_library:
+          name: cloudinary
           config:
             multiple: true
