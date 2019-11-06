@@ -24,7 +24,7 @@ fields:
 - name: links
   type: include
   config: {}
-  template: about
+  template: link
   label: Links
   description: any other link (Facebook, Spotlight etc...)
 - name: cv
