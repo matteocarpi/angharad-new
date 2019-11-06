@@ -41,4 +41,4 @@ collections:
       - { label: "Category", name: "category", widget: "select", multiple: true, options: ["Performance", "Design", "Theatre Making"], default: ["Performance"] }
       - { label: "Text", name: "text", widget: "markdown" }
       - { label: "Main Picture", name: "main_picture", widget: "image", allow_multiple: false }
-      - { label: "Gallery", name: "gallery", widget: "image" }
+      - { label: "Gallery", name: "gallery", widget: "image" allow_multiple: true}
