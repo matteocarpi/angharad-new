@@ -1,7 +1,6 @@
 ---
 date: 2019-11-06T13:47:07Z
 title: Cool Project
-category: Performance
 main_picture: "/uploads/christopher-carson-i4XLJmlYit4-unsplash.jpg"
 gallery:
 - "/uploads/simon-matzinger-Gpck1WkgxIk-unsplash.jpg"
