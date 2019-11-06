@@ -5,10 +5,15 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+# media_library:
+#   name: uploadcare
+#   config:
+#     publicKey: 9b98e647f6b70209ca58
 media_library:
-  name: uploadcare
+  name: cloudinary
   config:
-    publicKey: 9b98e647f6b70209ca58
+    cloud_name: dmobpyzxm
+    api_key: 986589322872968
 
 collections:
   - label: "Pages"
