@@ -1,5 +1,5 @@
 +++
-home_picture = "/uploads/andres-iga-bx6RpPf6jVk-unsplash.jpg"
+home_picture = "/uploads/335124_289426224500262_1707251345_o.jpg"
 title = "Home"
 
 +++
