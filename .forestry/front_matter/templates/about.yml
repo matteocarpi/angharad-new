@@ -28,15 +28,6 @@ fields:
   config:
     required: true
   label: Email
-- name: link
-  type: blocks
-  label: Links
-  template_types:
-  - link
-  config:
-    min: 
-    max: 
-  description: any additional links (Facebook, Spotlight etc...)
 - name: cv
   type: file
   config:
