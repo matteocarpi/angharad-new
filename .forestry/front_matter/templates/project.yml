@@ -41,3 +41,5 @@ fields:
   type: image_gallery
   config: {}
   label: Gallery
+pages:
+- content/projects/cool-project.md
