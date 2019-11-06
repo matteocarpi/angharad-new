@@ -1,4 +1,34 @@
 ---
 label: About
 hide_body: true
-fields: []
+fields:
+- name: headshot
+  type: file
+  config:
+    maxSize: 250
+  label: Headshot
+- name: biography
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Biography
+- name: email
+  type: text
+  config:
+    required: true
+  label: Email
+- name: links
+  type: include
+  config: {}
+  template: about
+  label: Links
+  description: any other link (Facebook, Spotlight etc...)
+- name: cv
+  type: file
+  config:
+    maxSize: 250
+  label: CV
