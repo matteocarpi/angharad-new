@@ -1,4 +1,9 @@
 ---
 label: Home
 hide_body: true
-fields: []
+fields:
+- name: home_picture
+  type: file
+  config:
+    maxSize: 250
+  label: Home Picture
