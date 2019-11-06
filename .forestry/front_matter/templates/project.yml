@@ -1,4 +1,43 @@
 ---
 label: Project
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: category
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - Performance
+    - Design
+    - Theatre Making
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: true
+    date_format: DD/MM/YYYY
+    time_format: 
+    display_utc: false
+  default: now
+- name: main_picture
+  type: file
+  config:
+    maxSize: 250
+  label: Main Picture
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
