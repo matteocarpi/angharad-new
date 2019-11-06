@@ -7,21 +7,21 @@ fields:
   config:
     required: true
   label: Title
-- name: category
-  type: select
-  default: ''
-  config:
-    required: true
-    options:
-    - Performance
-    - Design
-    - Theatre Making
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Category
+- name: categories
+  type: field_group
+  config: {}
+  fields:
+  - name: performance
+    type: boolean
+    label: Performance
+    default: true
+  - name: design
+    type: boolean
+    label: Design
+  - name: theatre_making
+    type: boolean
+    label: Theatre Making
+  label: Categories
 - name: date
   type: datetime
   label: Date
