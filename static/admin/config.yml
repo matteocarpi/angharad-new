@@ -12,8 +12,8 @@ public_folder: /img
 media_library:
   name: cloudinary
   config:
-    cloud_name: dmobpyzxm
-    api_key: 986589322872968
+    cloud_name: "dmobpyzxm"
+    api_key: "986589322872968"
 
 collections:
   - label: "Pages"
