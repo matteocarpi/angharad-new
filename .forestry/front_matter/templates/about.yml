@@ -21,12 +21,15 @@ fields:
   config:
     required: true
   label: Email
-- name: links
-  type: include
-  config: {}
-  template: link
+- name: link
+  type: blocks
   label: Links
-  description: any other link (Facebook, Spotlight etc...)
+  template_types:
+  - link
+  config:
+    min: 
+    max: 
+  description: any additional links (Facebook, Spotlight etc...)
 - name: cv
   type: file
   config:
