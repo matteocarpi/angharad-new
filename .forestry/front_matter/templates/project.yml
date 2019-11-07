@@ -1,0 +1,45 @@
+---
+label: Project
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: categories
+  type: field_group
+  config: {}
+  fields:
+  - name: performance
+    type: boolean
+    label: Performance
+    default: true
+  - name: design
+    type: boolean
+    label: Design
+  - name: theatre_making
+    type: boolean
+    label: Theatre Making
+  label: Categories
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: true
+    date_format: DD/MM/YYYY
+    time_format: 
+    display_utc: false
+  default: now
+- name: main_picture
+  type: file
+  config:
+    maxSize: 250
+  label: Main Picture
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
+pages:
+- content/projects/cool-project.md
