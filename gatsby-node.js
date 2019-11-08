@@ -10,7 +10,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
+    const slug = createFilePath({ node, getNode, basePath: `content/pages` })
     createNodeField({
       node,
       name: `slug`,
@@ -25,7 +25,7 @@ exports.createPages = async ({ graphql, actions }) => {
     const { createPage } = actions
     const result = await graphql(`
       query {
-        allMarkdownRemark {
+        allMarkdownRemark(filter: {frontmatter: {title: {eq: "Home"}}}) {
           edges {
             node {
               fields {
@@ -34,12 +34,12 @@ exports.createPages = async ({ graphql, actions }) => {
             }
           }
         }
-      }
+      }      
     `)
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
         createPage({
           path: node.fields.slug,
-          component: path.resolve(`./src/templates/project.js`),
+          component: path.resolve(`./src/templates/home.js`),
           context: {
             // Data passed to context is available
             // in page queries as GraphQL variables.
