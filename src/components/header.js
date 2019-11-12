@@ -1,11 +1,12 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import styles from '../styles/Header.module.scss';
 
 const Header = ({ siteTitle }) => (
   <header
+    className={styles.blue}
     style={{
-      background: `rebeccapurple`,
       marginBottom: `1.45rem`,
     }}
   >
