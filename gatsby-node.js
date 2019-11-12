@@ -23,9 +23,9 @@ exports.createPages = async ({ graphql, actions }) => {
     // **Note:** The graphql function call returns a Promise
     // see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise for more info
     const { createPage } = actions
-    const result = await graphql(`
+    const home = await graphql(`
       query {
-        allMarkdownRemark(filter: {frontmatter: {title: {eq: "Home"}}}) {
+        allMarkdownRemark(filter: {fields: {slug: {eq:"/"}}}) {
           edges {
             node {
               fields {
@@ -36,7 +36,7 @@ exports.createPages = async ({ graphql, actions }) => {
         }
       }      
     `)
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    home.data.allMarkdownRemark.edges.forEach(({ node }) => {
         createPage({
           path: node.fields.slug,
           component: path.resolve(`./src/templates/home.js`),
@@ -47,4 +47,53 @@ exports.createPages = async ({ graphql, actions }) => {
           },
         })
       })
-  }
+      const about = await graphql(`
+      query {
+        allMarkdownRemark(filter: {fields: {slug: {eq:"/about/"}}}) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+            }
+          }
+        }
+      }      
+      `)
+      about.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        createPage({
+          path: node.fields.slug,
+          component: path.resolve(`./src/templates/about.js`),
+          context: {
+            // Data passed to context is available
+            // in page queries as GraphQL variables.
+            slug: node.fields.slug,
+          },
+        })
+      })
+      
+      const projects = await graphql(`
+      query {
+        allMarkdownRemark(filter: {fields: {slug: {nin: ["/", "/about/"]}}}) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+            }
+          }
+        }
+      }         
+      `)
+      projects.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        createPage({
+          path: node.fields.slug,
+          component: path.resolve(`./src/templates/project.js`),
+          context: {
+            // Data passed to context is available
+            // in page queries as GraphQL variables.
+            slug: node.fields.slug,
+          },
+        })
+      })
+    }
