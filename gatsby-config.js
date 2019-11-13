@@ -7,6 +7,14 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: "gatsby-transformer-remark",
+      options: {
+          plugins: [
+              "gatsby-remark-normalize-paths"
+          ],
+      },
+  },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
