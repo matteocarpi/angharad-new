@@ -5,10 +5,7 @@ import styles from '../styles/Header.module.scss';
 
 const Header = ({ siteTitle }) => (
   <header
-    className={styles.blue}
-    style={{
-      marginBottom: `1.45rem`,
-    }}
+    className={styles.header}
   >
     <div
       style={{
