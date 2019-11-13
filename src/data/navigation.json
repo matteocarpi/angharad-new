@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Current Work",
+        "url": "#current-work"
+    },
+    {
+        "name": "Projects",
+        "url": "#",
+        "secondLevel": [
+            {
+                "name": "Performance",
+                "url": "/projects/performance"
+            },
+            {
+                "name": "Design",
+                "url": "/projects/design"
+            },
+            {
+                "name": "Theatre Making",
+                "url": "/projects/theatre-making"
+            }
+        ]
+    },
+    {
+        "name": "About & Contact",
+        "url": "/about-and-contact"
+    }
+]
