@@ -2,22 +2,46 @@ import React from "react"
 import Layout from "../components/layout"
 import { graphql } from 'gatsby';
 import styles from '../styles/Home.module.scss';
+import PostPreview from '../components/postPreview';
 
 export default ({data}, props) => {
+  const currentPosts = data.currentWork.edges;
+
   return (
     <Layout>
       <div style={{
-        backgroundImage: `url(${data.allMarkdownRemark.edges[0].node.frontmatter.home_picture})`,
+        backgroundImage: `url(${data.homeData.edges[0].node.frontmatter.home_picture})`,
       }}
       className={styles.titleSlide}
-      />
+      >
+        <div className={styles.title}>
+          <h1>Angharad Matthews</h1>
+          <h2>Performer - Designer - Theatre Maker</h2>
+        </div>
+
+      </div>
+
+      <section className={styles.currentWork}>
+        <h1>Current Work</h1>
+        <section className={styles.recentPosts}>
+          {currentPosts.map((post) => {
+            return (
+              <PostPreview
+                image={post.node.frontmatter.main_picture}
+                title={post.node.frontmatter.title}
+                excerpt={post.node.excerpt}
+              />
+            )
+          })}
+        </section>
+      </section>
     </Layout>
   )
 }
 
 export const query = graphql`
   query HomePageQuery {
-    allMarkdownRemark(filter: {fields: {slug: {eq: "/"}}}) {
+    homeData: allMarkdownRemark(filter: {fields: {slug: {eq: "/"}}}) {
       edges {
         node {
           frontmatter {
@@ -26,5 +50,25 @@ export const query = graphql`
         }
       }
     }
+    currentWork: allMarkdownRemark(sort: {fields: [frontmatter___date], order: ASC}, limit: 3, filter: {frontmatter: {current_work: {eq: true}}}) {
+    edges {
+      node {
+        frontmatter {
+          title
+          main_picture
+          gallery
+          categories {
+            design
+            performance
+            theatre_making
+          }
+        }
+        excerpt(pruneLength: 200)
+        internal {
+          content
+        }
+      }
+    }
+  }
   }
 `

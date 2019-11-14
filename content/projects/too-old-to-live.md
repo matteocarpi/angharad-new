@@ -1,6 +1,6 @@
 ---
 date: 2019-11-06T13:47:07.000+00:00
-title: Cool Project
+title: Too Old to Live
 main_picture: "/uploads/simon-matzinger-Gpck1WkgxIk-unsplash.jpg"
 gallery:
 - "/uploads/PROEGELHOEF.jpg"
@@ -13,7 +13,6 @@ categories:
   performance: true
   design: true
   theatre_making: true
-current_work: true
 ---
 Quis exercitation officia ad irure in. Nostrud nisi voluptate cupidatat aliqua mollit veniam velit consequat pariatur velit et. Duis sunt consequat ad esse veniam sint qui id dolore in exercitation.
 
