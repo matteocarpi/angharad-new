@@ -7,15 +7,16 @@ import classnames from 'classnames';
 import { FaBars } from 'react-icons/fa';
 
 const Header = ({ siteTitle }) => {
+  const location = window.location.pathname;
   const [displayMenu, setDisplayMenu] = useState(false);
   const [displaySecondLevel, setDisplaySecondLevel] = useState(false);
   return(
   <header
-    className={styles.header}
+    className={classnames(styles.header, location === '/' && styles.absolute)}
   >
     <div className={styles.headerTop}>
 
-      <h1 className={styles.logo}>
+      <h1 className={classnames(styles.logo, location === '/' && styles.hide)}>
         <Link
           to="/"
         >
@@ -95,4 +96,4 @@ Header.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default Header;
