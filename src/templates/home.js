@@ -1,12 +1,12 @@
-import React from "react"
+import React, { useState } from "react"
 import Layout from "../components/layout"
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import styles from '../styles/Home.module.scss';
 import PostPreview from '../components/postPreview';
 
 export default ({data}, props) => {
   const currentPosts = data.currentWork.edges;
-
+  const [displayCategories, setDisplayCategories] = useState(false);
   return (
     <Layout>
       <div style={{
@@ -34,6 +34,41 @@ export default ({data}, props) => {
             )
           })}
         </section>
+      </section>
+      
+      <section>
+
+        <button onClick={() => setDisplayCategories(!displayCategories)}>
+          <h3>{!displayCategories ? 'MORE PROJECTS...' : 'LESS PROJECTS...'}</h3>
+        </button>
+        
+        <section>
+          <div className={styles.verticalLine}/>
+
+          <div className={styles.options}>
+            <Link 
+              to="/projects/performance"
+              className={styles.bigButton}
+            >
+            Performance
+            </Link>
+
+            <Link 
+              to="/projects/design"
+              className={styles.bigButton}
+            >
+            Design
+            </Link>
+
+            <Link 
+              to="/projects/theatre-making"
+              className={styles.bigButton}
+            >
+            Theatre Making
+            </Link>
+          </div>
+        </section>
+
       </section>
     </Layout>
   )
