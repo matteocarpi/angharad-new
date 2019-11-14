@@ -1,5 +1,6 @@
 .header {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
 }
@@ -34,7 +35,39 @@ nav.navigation.desktop {
         }
     }
 }
+
+.navigation.mobile {
+    display: flex;
+    flex-direction: column;
+    ul {
+        flex-direction: column;
+    }
+    .displayNavigation {
+        display: flex;
+    }
+    .hideNavigation {
+        display: none;
+    }
+}
+
+.headerTop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.show {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
 @media (min-width: 769px) {
+    .header {
+        flex-direction: row;
+    }
     nav.navigation.mobile {
         display: none;
     }
