@@ -1,8 +1,9 @@
 import React, { useState } from "react"
 import Layout from "../components/layout"
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import styles from '../styles/Home.module.scss';
 import PostPreview from '../components/postPreview';
+import BigButton from '../components/bigButton';
 
 export default ({data}, props) => {
   const currentPosts = data.currentWork.edges;
@@ -46,26 +47,23 @@ export default ({data}, props) => {
           <div className={styles.verticalLine}/>
 
           <div className={styles.options}>
-            <Link 
+            <BigButton 
               to="/projects/performance"
-              className={styles.bigButton}
             >
             Performance
-            </Link>
+            </BigButton>
 
-            <Link 
+            <BigButton 
               to="/projects/design"
-              className={styles.bigButton}
             >
             Design
-            </Link>
+            </BigButton>
 
-            <Link 
+            <BigButton 
               to="/projects/theatre-making"
-              className={styles.bigButton}
             >
             Theatre Making
-            </Link>
+            </BigButton>
           </div>
         </section>
 
