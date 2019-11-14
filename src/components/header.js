@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
 
-      <nav>
+      <nav className={}>
         <ul>
           {navigation.map((item) => {
             return (
