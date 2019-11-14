@@ -3,29 +3,57 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
+    z-index: 1;
+    .navigation {
+        li {
+            * {
+                color: white;
+                text-decoration: none;
+            }
+            list-style: none;
+
+        }
+        
+        li:hover {
+                text-decoration: underline;
+        }
+
+        .active {
+            text-decoration: underline;
+        }
+    }
 }
 
 .header.absolute {
     position: absolute;
     width: 100%;
 }
+
 nav.navigation.desktop {
     display: none;
     flex: 1;
     max-width: 600px;
-
+    margin-right: 5rem;
     ul {
         display: flex;
         justify-content: space-between;
         flex: 1;
         li {
             ul {
+                position: absolute;
                 display: flex;
                 transition: all 0.3s;
                 position: absolute;
                 flex-direction: column;
                 visibility: hidden;
                 opacity: 0;
+                margin: 1rem 0;
+
+                li {
+                    border: solid white 1px;
+                    margin: 0;
+                    padding: 0.5rem 1rem;
+                }
             }
         }
         

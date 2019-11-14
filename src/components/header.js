@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => {
           {navigation.map((item) => {
             return (
             <li>
-              <Link onClick={!item.secondLevel ? () => setDisplayMenu(false) : () => setDisplaySecondLevel(!displaySecondLevel)} to={item.url}>
+              <Link className={styles.menuItem} activeClassName={styles.active} onClick={!item.secondLevel ? () => setDisplayMenu(false) : () => setDisplaySecondLevel(!displaySecondLevel)} to={item.url}> 
                 {item.name}
               </Link>
               

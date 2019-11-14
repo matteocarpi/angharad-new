@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import Layout from "../components/layout"
 import { graphql } from 'gatsby';
+import universal from '../styles/Universal.module.scss';
 import styles from '../styles/Home.module.scss';
 import PostPreview from '../components/postPreview';
 import BigButton from '../components/bigButton';
@@ -11,13 +12,13 @@ export default ({data}, props) => {
   return (
     <Layout>
       <div style={{
-        backgroundImage: `url(${data.homeData.edges[0].node.frontmatter.home_picture})`,
+        backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.50) 3%, rgba(0,0,0,0) 100%), url(${data.homeData.edges[0].node.frontmatter.home_picture})`,
       }}
       className={styles.titleSlide}
       >
         <div className={styles.title}>
-          <h1>Angharad Matthews</h1>
-          <h2>Performer - Designer - Theatre Maker</h2>
+          <h1 className={universal.white}>Angharad Matthews</h1>
+          <h2 className={universal.white}>Performer - Designer - Theatre Maker</h2>
         </div>
 
       </div>
