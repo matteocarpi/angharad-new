@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import styles from '../styles/Header.module.scss';
 import navigation from '../data/navigation.json';
+import classnames from 'classnames';
 
 const Header = ({ siteTitle }) => (
   <header
@@ -16,7 +17,35 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
 
-      <nav className={}>
+      <nav className={classnames(styles.navigation, styles.desktop)}>
+        <ul>
+          {navigation.map((item) => {
+            return (
+            <li>
+              <Link to={item.url}>
+                {item.name}
+              </Link>
+              {item.secondLevel &&
+                <ul>
+                  {item.secondLevel.map((subItem) => {
+                    return (
+                      <li>
+                        <Link to ={subItem.url}>
+                          {subItem.name}
+                        </Link>
+                      </li>
+                    )
+                }
+                )}
+                </ul>
+              }
+            </li>
+            )
+          })}
+        </ul>
+      </nav>
+
+      <nav className={classnames(styles.navigation, styles.mobile)}>
         <ul>
           {navigation.map((item) => {
             return (
