@@ -1,8 +1,7 @@
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 5rem auto;
     h1 {
-        margin-left: 2rem;
         text-align: center;
     }
     .posts {
@@ -14,4 +13,13 @@
 
 h1.left {
     text-align: left;
+    margin-left: 2rem;
+}
+
+@media (max-width: 769px) {
+    .container {
+        .posts {
+            justify-content: center;
+        }
+    }
 }
