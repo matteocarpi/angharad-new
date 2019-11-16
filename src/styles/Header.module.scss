@@ -1,13 +1,22 @@
+@import "_constants.scss";
+
 .header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
     z-index: 1;
+    .headerTop {
+        .logo {
+            a {
+                color: $grey;
+            }
+        }
+    }
     .navigation {
         li {
             * {
-                color: white;
+                color: $grey;
                 text-decoration: none;
             }
             list-style: none;
@@ -24,9 +33,30 @@
     }
 }
 
-.header.absolute {
+.header.home {
     position: absolute;
     width: 100%;
+    .logo {
+        color: white;
+    }
+    .navigation {
+        li {
+            * {
+                color: white;
+            }
+        }
+    }
+    nav.navigation.desktop{
+        ul {
+            li {
+                ul {
+                    li {
+                        border-color: white;
+                    }
+                }
+            }
+        }
+    }
 }
 
 nav.navigation.desktop {
@@ -50,7 +80,7 @@ nav.navigation.desktop {
                 margin: 1rem 0;
 
                 li {
-                    border: solid white 1px;
+                    border: solid $grey 1px;
                     margin: 0;
                     padding: 0.5rem 1rem;
                 }

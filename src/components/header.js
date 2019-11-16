@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => {
   const [displaySecondLevel, setDisplaySecondLevel] = useState(false);
   return(
   <header
-    className={classnames(styles.header, location === '/' && styles.absolute)}
+    className={classnames(styles.header, location === '/' && styles.home)}
   >
     <div className={styles.headerTop}>
 
