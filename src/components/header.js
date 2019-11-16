@@ -16,13 +16,13 @@ const Header = ({ siteTitle }) => {
   >
     <div className={styles.headerTop}>
 
-      <h1 className={classnames(styles.logo, location === '/' && styles.hide)}>
+      <h2 className={classnames(styles.logo, location === '/' && styles.hide)}>
         <Link
           to="/"
         >
           {siteTitle}
         </Link>
-      </h1>
+      </h2>
       <FaBars className={styles.menuIcon} onClick={() => setDisplayMenu(!displayMenu)}/>
     </div>
 
