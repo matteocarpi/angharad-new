@@ -1,7 +1,7 @@
 import React from 'react';
 import Markdown from 'markdown-to-jsx';
 import styles from '../styles/PostPreview.module.scss';
-
+import { Link }from 'gatsby';
 const PostPreview = (props) => {
     return (
         <div>
@@ -13,7 +13,9 @@ const PostPreview = (props) => {
                 className={styles.image}
                 />
                 {/* <img alt={props.image} src={props.image}/> */}
-                <h3>{props.title}</h3>
+                <Link className={styles.title} to={props.slug}>
+                    <h3>{props.title}</h3>
+                </Link>
                 <p className={styles.description}>
                 <Markdown>{props.excerpt}</Markdown>
                 </p>

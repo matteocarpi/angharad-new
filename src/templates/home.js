@@ -6,6 +6,12 @@ import styles from '../styles/Home.module.scss';
 import PostPreview from '../components/postPreview';
 import BigButton from '../components/bigButton';
 import Button from '../components/button';
+import { navigate } from '@reach/router';
+
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]')
+}
 
 export default ({data}, props) => {
   const currentPosts = data.currentWork.edges;
@@ -24,7 +30,7 @@ export default ({data}, props) => {
 
       </div>
 
-      <section className={styles.currentWork}>
+      <section id="current-work" className={styles.currentWork}>
         <h1>Current Work</h1>
         <section className={styles.recentPosts}>
           {currentPosts.map((post) => {
@@ -33,21 +39,28 @@ export default ({data}, props) => {
                 image={post.node.frontmatter.main_picture}
                 title={post.node.frontmatter.title}
                 excerpt={post.node.excerpt}
+                slug={post.node.fields.slug}
               />
             )
           })}
         </section>
       </section>
       
-      <section className={styles.categories}>
+      <section id="show-less" className={styles.categoriesWrap}>
 
-        <Button onClick={() => setDisplayCategories(!displayCategories)}>
+        <Button  onClick={() => {
+          setDisplayCategories(!displayCategories);
+          navigate(!displayCategories ? '#options' : '#current-work');
+        }}>
           {!displayCategories ? 'MORE PROJECTS...' : 'LESS PROJECTS...'}
         </Button>
+        
+        {displayCategories && (
 
+        <section className={styles.categories}>
           <div className={styles.verticalLine}/>
 
-          <div className={styles.options}>
+          <div id="options" className={styles.options}>
             <BigButton 
               to="/projects/performance"
             >
@@ -66,7 +79,8 @@ export default ({data}, props) => {
             Theatre Making
             </BigButton>
           </div>
-
+        </section> 
+        )}
       </section>
     </Layout>
   )
@@ -86,6 +100,9 @@ export const query = graphql`
     currentWork: allMarkdownRemark(sort: {fields: [frontmatter___date], order: ASC}, limit: 3, filter: {frontmatter: {current_work: {eq: true}}}) {
     edges {
       node {
+        fields {
+          slug
+        }
         frontmatter {
           title
           main_picture
