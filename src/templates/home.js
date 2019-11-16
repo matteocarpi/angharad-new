@@ -1,20 +1,20 @@
-import React, { useState } from "react"
-import Layout from "../components/layout"
+import React, { useState } from 'react';
+import Layout from '../components/layout';
 import { graphql } from 'gatsby';
 import universal from '../styles/Universal.module.scss';
 import styles from '../styles/Home.module.scss';
-import PostPreview from '../components/postPreview';
 import BigButton from '../components/bigButton';
 import Button from '../components/button';
 import { navigate } from '@reach/router';
+import ProjectList from '../components/projectList';
 
-if (typeof window !== "undefined") {
+if (typeof window !== 'undefined') {
   // eslint-disable-next-line global-require
-  require("smooth-scroll")('a[href*="#"]')
+  require('smooth-scroll')('a[href*="#"]');
 }
 
-export default ({data}, props) => {
-  const currentPosts = data.currentWork.edges;
+export default ({data}) => {
+  const posts = data.currentWork.edges;
   const [displayCategories, setDisplayCategories] = useState(false);
   return (
     <Layout>
@@ -30,21 +30,10 @@ export default ({data}, props) => {
 
       </div>
 
-      <section id="current-work" className={styles.currentWork}>
-        <h1>Current Work</h1>
-        <section className={styles.recentPosts}>
-          {currentPosts.map((post) => {
-            return (
-              <PostPreview
-                image={post.node.frontmatter.main_picture}
-                title={post.node.frontmatter.title}
-                excerpt={post.node.excerpt}
-                slug={post.node.fields.slug}
-              />
-            )
-          })}
-        </section>
-      </section>
+      <ProjectList
+        title="Current Work"
+        posts={posts}
+      />
       
       <section id="show-less" className={styles.categoriesWrap}>
 
@@ -57,34 +46,34 @@ export default ({data}, props) => {
         
         {displayCategories && (
 
-        <section className={styles.categories}>
-          <div className={styles.verticalLine}/>
+          <section className={styles.categories}>
+            <div className={styles.verticalLine}/>
 
-          <div id="options" className={styles.options}>
-            <BigButton 
-              to="/projects/performance"
-            >
+            <div id="options" className={styles.options}>
+              <BigButton 
+                to="/projects/performance"
+              >
             Performance
-            </BigButton>
+              </BigButton>
 
-            <BigButton 
-              to="/projects/design"
-            >
+              <BigButton 
+                to="/projects/design"
+              >
             Design
-            </BigButton>
+              </BigButton>
 
-            <BigButton 
-              to="/projects/theatre-making"
-            >
+              <BigButton 
+                to="/projects/theatre-making"
+              >
             Theatre Making
-            </BigButton>
-          </div>
-        </section> 
+              </BigButton>
+            </div>
+          </section> 
         )}
       </section>
     </Layout>
-  )
-}
+  );
+};
 
 export const query = graphql`
   query HomePageQuery {
@@ -121,4 +110,4 @@ export const query = graphql`
     }
   }
   }
-`
+`;
