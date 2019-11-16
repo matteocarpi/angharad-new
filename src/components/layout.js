@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.scss"
+import { universal } from "postcss-selector-parser"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -24,13 +25,13 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div className={universal.container}>
       <Header siteTitle={data.site.siteMetadata.title} />
         {children}
         <footer>
          Copyright © {new Date().getFullYear()} {data.site.siteMetadata.title}
         </footer>
-    </>
+    </div>
   )
 }
 

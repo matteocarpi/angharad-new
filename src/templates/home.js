@@ -18,7 +18,7 @@ export default ({data}, props) => {
       >
         <div className={styles.title}>
           <h1 className={universal.white}>Angharad Matthews</h1>
-          <h2 className={universal.white}>Performer - Designer - Theatre Maker</h2>
+          <h4 className={universal.white}>Performer - Designer - Theatre Maker</h4>
         </div>
 
       </div>
