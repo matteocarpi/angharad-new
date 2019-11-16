@@ -1,21 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Layout from '../components/layout';
 import { graphql } from 'gatsby';
 import universal from '../styles/Universal.module.scss';
 import styles from '../styles/Home.module.scss';
-import BigButton from '../components/bigButton';
-import Button from '../components/button';
-import { navigate } from '@reach/router';
 import ProjectList from '../components/projectList';
+import PropTypes from 'prop-types';
+import CategorySelector from '../components/categorySelector';
 
 if (typeof window !== 'undefined') {
-  // eslint-disable-next-line global-require
+  // eslint-disable-next-line
   require('smooth-scroll')('a[href*="#"]');
 }
 
-export default ({data}) => {
+const Home = ({ data }) => {
   const posts = data.currentWork.edges;
-  const [displayCategories, setDisplayCategories] = useState(false);
   return (
     <Layout>
       <div style={{
@@ -35,45 +33,14 @@ export default ({data}) => {
         posts={posts}
       />
       
-      <section id="show-less" className={styles.categoriesWrap}>
-
-        <Button  onClick={() => {
-          setDisplayCategories(!displayCategories);
-          navigate(!displayCategories ? '#options' : '#current-work');
-        }}>
-          {!displayCategories ? 'MORE PROJECTS...' : 'LESS PROJECTS...'}
-        </Button>
-        
-        {displayCategories && (
-
-          <section className={styles.categories}>
-            <div className={styles.verticalLine}/>
-
-            <div id="options" className={styles.options}>
-              <BigButton 
-                to="/projects/performance"
-              >
-            Performance
-              </BigButton>
-
-              <BigButton 
-                to="/projects/design"
-              >
-            Design
-              </BigButton>
-
-              <BigButton 
-                to="/projects/theatre-making"
-              >
-            Theatre Making
-              </BigButton>
-            </div>
-          </section> 
-        )}
-      </section>
+      <CategorySelector
+        page="Home"
+      />
     </Layout>
   );
 };
+
+export default Home;
 
 export const query = graphql`
   query HomePageQuery {
@@ -111,3 +78,7 @@ export const query = graphql`
   }
   }
 `;
+
+Home.propTypes = {
+  data: PropTypes.node,
+};

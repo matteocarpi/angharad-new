@@ -2,17 +2,22 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import ProjectList from '../../components/projectList';
 import Layout from '../../components/layout';
+import CategorySelector from '../../components/categorySelector';
+import { PropTypes } from 'prop-types';
 
 const Performance = ({ data }) => {
-    const posts =  data.performance.edges;
-    return (
-        <Layout>
-            <ProjectList
-                title="Performance"
-                posts={posts}
-            />
-        </Layout>
-    );
+  const posts =  data.performance.edges;
+  return (
+    <Layout>
+      <ProjectList
+        title="Performance"
+        posts={posts}
+      />
+      <CategorySelector
+        page="Performance"
+      />
+    </Layout>
+  );
 };
 
 export default Performance;
@@ -43,4 +48,8 @@ query PerformanceQuery {
       }
     }
   }
-`
+`;
+
+Performance.propTypes = {
+    data: PropTypes.node,
+  };

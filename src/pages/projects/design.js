@@ -2,17 +2,22 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import ProjectList from '../../components/projectList';
 import Layout from '../../components/layout';
+import CategorySelector from '../../components/categorySelector';
+import PropTypes from 'prop-types';
 
 const Design = ({ data }) => {
-    const posts =  data.design.edges;
-    return (
-        <Layout>
-            <ProjectList
-                title="Design"
-                posts={posts}
-            />
-        </Layout>
-    );
+  const posts =  data.design.edges;
+  return (
+    <Layout>
+      <ProjectList
+        title="Design"
+        posts={posts}
+      />
+      <CategorySelector
+        page="Design"
+      />
+    </Layout>
+  );
 };
 
 export default Design;
@@ -43,4 +48,8 @@ query DesignQuery {
       }
     }
   }
-`
+`;
+
+Design.propTypes = {
+  data: PropTypes.node,
+};

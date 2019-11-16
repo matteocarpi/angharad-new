@@ -1,0 +1,30 @@
+@import '_constants.scss';
+
+.categoriesWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .verticalLine {
+        min-height: 100px;
+        width: 0;
+        margin: 0 auto;
+        border: solid 0.5px $grey;
+        transform: scaleY(15px)
+    }
+    .categories {
+        animation: fadeInDown 0.5s;
+    }
+    .categories.hide {
+        display: none;
+    }
+    .categories.show {
+        display: block;
+    }
+    .options {
+        width: 100%;
+        max-width: 1000px;
+        display: flex;
+        justify-content: center;
+    }
+}
