@@ -5,6 +5,7 @@ import universal from '../styles/Universal.module.scss';
 import styles from '../styles/Home.module.scss';
 import PostPreview from '../components/postPreview';
 import BigButton from '../components/bigButton';
+import Button from '../components/button';
 
 export default ({data}, props) => {
   const currentPosts = data.currentWork.edges;
@@ -38,13 +39,12 @@ export default ({data}, props) => {
         </section>
       </section>
       
-      <section>
+      <section className={styles.categories}>
 
-        <button onClick={() => setDisplayCategories(!displayCategories)}>
-          <h3>{!displayCategories ? 'MORE PROJECTS...' : 'LESS PROJECTS...'}</h3>
-        </button>
-        
-        <section>
+        <Button onClick={() => setDisplayCategories(!displayCategories)}>
+          {!displayCategories ? 'MORE PROJECTS...' : 'LESS PROJECTS...'}
+        </Button>
+
           <div className={styles.verticalLine}/>
 
           <div className={styles.options}>
@@ -66,7 +66,6 @@ export default ({data}, props) => {
             Theatre Making
             </BigButton>
           </div>
-        </section>
 
       </section>
     </Layout>

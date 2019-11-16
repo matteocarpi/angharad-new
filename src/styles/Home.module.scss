@@ -1,3 +1,4 @@
+@import '_constants.scss';
 .titleSlide {
     position: relative;
     top: 0;
@@ -26,7 +27,25 @@
         flex-wrap: wrap;
     }
 }
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    .verticalLine {
+        min-height: 100px;
+        width: 0;
+        margin: 0 auto;
+        border: solid 0.5px $grey;
+    }
+
+    .options {
+        width: 100%;
+        max-width: 1000px;
+        display: flex;
+        justify-content: center;
+    }
+}
 @media (max-width: 744px) {
     .recentPosts {
         flex-direction: column;

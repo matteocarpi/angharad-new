@@ -1,0 +1,26 @@
+@import '_constants.scss';
+
+.wrap {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    transition: all 0.3s ease;
+    border: solid 1px $grey;
+    h1 {
+        margin: 1rem 0;
+        width: 300px;
+        text-align: center;
+    }
+    margin: 2rem;
+}
+
+.button:hover {
+    background: $grey;
+    h1 {
+        color: white;
+    }
+}

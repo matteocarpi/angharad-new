@@ -6,9 +6,13 @@ const BigButton = (props) => {
     return (
         <Link 
         to={props.to}
-        className={styles.bigButton}
+        className={styles.wrap}
         >
-        {props.children}
+        <div
+            className={styles.button}
+        >
+            <h1>{props.children}</h1>
+        </div>
         </Link>
     );
 };
