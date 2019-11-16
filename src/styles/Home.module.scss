@@ -15,18 +15,6 @@
     align-items: center;
 }
 
-.currentWork {
-    max-width: 1200px;
-    margin: 5rem auto;
-    h1 {
-        margin-left: 2rem;
-    }
-    .recentPosts {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-}
 .categoriesWrap {
     display: flex;
     flex-direction: column;
