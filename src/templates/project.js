@@ -4,18 +4,17 @@ import styles from '../styles/Project.module.scss';
 import { graphql } from 'gatsby';
 import { PropTypes } from 'prop-types';
 import Markdown from 'markdown-to-jsx';
-import classnames from 'classnames';
+import Carousel from 'react-images';
 
 const Project = ({ data }) => {
-  const mainPicture = data.postData.frontmatter.main_picture;
-
+  
   return (
     <Layout>
       <div className={styles.project}>
 
         <section className={styles.visual}>
-          <div className={styles.gallery}>
-            {data.postData.frontmatter.gallery.map((image, index) => {
+          <div onClick={() => } className={styles.gallery}>
+            {data.postData.frontmatter.gallery.map((image) => {
               return (
                 <div 
                   key={styles.image}
