@@ -51,5 +51,5 @@ query PerformanceQuery {
 `;
 
 Performance.propTypes = {
-    data: PropTypes.node,
-  };
+  data: PropTypes.node,
+};

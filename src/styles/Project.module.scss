@@ -1,0 +1,36 @@
+.project {
+    margin: 2rem auto;
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    .visual {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .gallery {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between
+        }
+    }
+
+    .reading {
+        width: 40%;
+        margin-left: 1rem;
+    }
+
+    .image:first-child {
+        width: 100%;
+        padding-top: calc(100%*9/16);
+        margin-bottom: 1rem;
+    }
+    .image {
+        width: 30%;
+        padding-top: 30%;
+        background-size: cover;
+        background-position: center;
+    }
+}

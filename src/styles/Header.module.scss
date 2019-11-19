@@ -1,5 +1,8 @@
 @import "_constants.scss";
 
+.white {
+    color: white;
+}
 .header {
     display: flex;
     flex-direction: column;
@@ -14,11 +17,11 @@
         }
     }
     .navigation {
+        * {
+            color: $grey;
+            text-decoration: none;
+        }
         li {
-            * {
-                color: $grey;
-                text-decoration: none;
-            }
             list-style: none;
             font-size: 0.8rem;
         }
@@ -30,6 +33,10 @@
         .active {
             text-decoration: underline;
         }
+    }
+
+    .menuItem {
+        cursor: pointer;
     }
 }
 
@@ -43,10 +50,8 @@
         color: white;
     }
     .navigation {
-        li {
-            * {
-                color: white;
-            }
+        * {
+            color: white;
         }
     }
     nav.navigation.desktop{

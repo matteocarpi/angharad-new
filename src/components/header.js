@@ -33,10 +33,16 @@ const Header = ({ siteTitle }) => {
           {navigation.map((item) => {
             return (
               <li key={item.name}>
-                <Link className={styles.menuItem} activeClassName={styles.active} onClick={!item.secondLevel ? () => setDisplayMenu(false) : () => setDisplaySecondLevel(!displaySecondLevel)} to={item.url}> 
-                  {item.name}
-                </Link>
+                {!item.secondLevel ? 
+                
+                  <Link className={styles.menuItem} activeClassName={styles.active} onClick={!item.secondLevel ? () => setDisplayMenu(false) : () => setDisplaySecondLevel(!displaySecondLevel)} to={item.url}> 
+                    {item.name}
+                  </Link>
               
+                  :
+                  `${item.name}`
+                }
+
                 {item.secondLevel &&
 
                 <ul className={displaySecondLevel ? styles.show : styles.hide}>
@@ -62,10 +68,15 @@ const Header = ({ siteTitle }) => {
         <ul>
           {navigation.map((item) => {
             return (
-              <li key={item.name}>
-                <Link to={item.url}>
-                  {item.name}
-                </Link>
+              <li className={classnames(styles.menuItem, location === '/' && styles.white)} key={item.name}>
+                {!item.secondLevel ?
+                  <Link to={item.url}>
+                    {item.name}
+                  </Link>
+
+                  :
+                  `${item.name}`
+                }
                 {item.secondLevel &&
                 <ul>
                   {item.secondLevel.map((subItem) => {
