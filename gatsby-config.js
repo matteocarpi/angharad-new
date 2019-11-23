@@ -35,7 +35,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'images',
+        name: 'pages',
         // eslint-disable-next-line no-undef
         path: `${__dirname}/content/pages/`,
       },
@@ -43,7 +43,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'images',
+        name: 'projects',
         // eslint-disable-next-line no-undef
         path: `${__dirname}/content/projects`,
       },
