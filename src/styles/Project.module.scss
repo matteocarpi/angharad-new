@@ -6,14 +6,26 @@
     .visual {
         width: 60%;
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
         align-items: center;
-
-        .gallery {
+        .thumbWrap {
+            width: 30%;
+            cursor: pointer;
+        }
+        .thumbWrap.first {
             width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between
+        }
+        .thumb {
+            width: 100%;
+            padding-top: 100%;
+            background-position: center;
+            background-size: cover;
+            margin: 1rem 0;
+            &.first {
+                padding-top: 100%*9/16;
+                margin-top: 0;
+            }
         }
     }
 
@@ -33,4 +45,13 @@
         background-size: cover;
         background-position: center;
     }
+}
+
+.lightboxContainer {
+    .navIcon {
+        font-size: 20px;
+    }
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
 }

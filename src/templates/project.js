@@ -5,30 +5,44 @@ import { graphql } from 'gatsby';
 import { PropTypes } from 'prop-types';
 import Markdown from 'markdown-to-jsx';
 import Modali, { useModali } from 'modali';
+import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
+import classnames from 'classnames';
 
 const Project = ({ data }) => {
   const images = data.postData.frontmatter.gallery;
-  const [selectedImage, setSelectedImage] = useState();
-  const [lightbox, toggleLightbox] = useModali();
+  let [selectedImage, setSelectedImage] = useState();
+  const [lightbox, toggleLightbox] = useModali({ large:true });
 
   return (
     <Layout>
       <div className={styles.project}>
-        <Modali.Modal {...lightbox}>
-          <img src={selectedImage}/>
+        <Modali.Modal 
+          centered={true} 
+          {...lightbox}
+        >
+          <div
+            className={styles.lightboxContainer}
+          >
+            <FaChevronLeft className={styles.navIcon} onClick={() => setSelectedImage(selectedImage--)}/>
+            <img src={images[selectedImage]}/>
+            <FaChevronRight className={styles.navIcon} onClick={() => setSelectedImage(selectedImage++)}/>
+          </div>
         </Modali.Modal>
         <section className={styles.visual}>
-          {images.map(image => {
+          {images.map((image, index) => {
             return (
               <button
-                key={image} 
+                key={images[index]} 
                 onClick={() => {
                   toggleLightbox();
-                  setSelectedImage(image);
+                  setSelectedImage(index);
                 }}
+                className={classnames(styles.thumbWrap, index === 0 && styles.first)}
               >
-                <img 
-                  src={image}
+                <div 
+                  className={classnames(styles.thumb, index === 0 && styles.first)}
+                  style={{
+                    backgroundImage: `url(${images[index]})`}}
                 />
               </button>
             );
