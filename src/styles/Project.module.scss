@@ -33,25 +33,22 @@
         width: 40%;
         margin-left: 1rem;
     }
-
-    .image:first-child {
-        width: 100%;
-        padding-top: calc(100%*9/16);
-        margin-bottom: 1rem;
-    }
-    .image {
-        width: 30%;
-        padding-top: 30%;
-        background-size: cover;
-        background-position: center;
-    }
+}
+.image {
+    max-height: 80vh;
+    width: 80%;
+    object-fit: contain;
+    margin-bottom: 61px;
 }
 
 .lightboxContainer {
     .navIcon {
         font-size: 20px;
+        cursor: pointer;
     }
+    width: 100%;
     padding: 0 2rem;
     display: flex;
+    justify-content: center;
     align-items: center;
 }

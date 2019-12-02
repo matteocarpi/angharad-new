@@ -11,21 +11,27 @@ import classnames from 'classnames';
 const Project = ({ data }) => {
   const images = data.postData.frontmatter.gallery;
   let [selectedImage, setSelectedImage] = useState();
-  const [lightbox, toggleLightbox] = useModali({ large:true });
+  const [lightbox, toggleLightbox] = useModali({ centered: true, large:true });
 
   return (
     <Layout>
       <div className={styles.project}>
         <Modali.Modal 
-          centered={true} 
           {...lightbox}
         >
           <div
             className={styles.lightboxContainer}
           >
-            <FaChevronLeft className={styles.navIcon} onClick={() => setSelectedImage(selectedImage--)}/>
-            <img src={images[selectedImage]}/>
-            <FaChevronRight className={styles.navIcon} onClick={() => setSelectedImage(selectedImage++)}/>
+            <FaChevronLeft className={styles.navIcon} onClick={() => setSelectedImage(selectedImage = selectedImage - 1)}/>
+            <img className={styles.image} src={images[selectedImage]}/>
+            <FaChevronRight 
+              className={styles.navIcon} 
+              onClick={() => {
+                selectedImage === images.length - 1 ? 
+                  setSelectedImage(0)
+                  :
+                  setSelectedImage(selectedImage = selectedImage + 1);
+              }}/>
           </div>
         </Modali.Modal>
         <section className={styles.visual}>
@@ -47,15 +53,6 @@ const Project = ({ data }) => {
               </button>
             );
           })}
-
-          <div className={styles.lightbox}>
-            <div 
-              className={styles.image}
-              styles={{
-                backgroundImage: `url(${selectedImage})`,
-              }}
-            />
-          </div>
         </section>
         
         <section className={styles.reading}>

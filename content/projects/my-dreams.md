@@ -7,8 +7,6 @@ gallery:
 - "/uploads/swapnil-dwivedi-N2IJ31xZ_ks-unsplash-1.jpg"
 - "/uploads/swapnil-dwivedi-N2IJ31xZ_ks-unsplash.jpg"
 - "/uploads/simon-matzinger-Gpck1WkgxIk-unsplash.jpg"
-- "/uploads/john-bakator-EMsJWwsLIHU-unsplash.jpg"
-- "/uploads/andres-iga-bx6RpPf6jVk-unsplash.jpg"
 categories:
   performance: true
   design: true
