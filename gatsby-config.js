@@ -22,6 +22,9 @@ module.exports = {
     //     ]
     //   }
     // }
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    'gatsby-transformer-remark',
     'gatsby-plugin-smoothscroll',
     'gatsby-plugin-react-helmet',
     {
@@ -46,6 +49,13 @@ module.exports = {
         name: 'projects',
         // eslint-disable-next-line no-undef
         path: `${__dirname}/content/projects`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        // eslint-disable-next-line no-undef
+        path: `${__dirname}/uploads`,
       },
     },
     'gatsby-transformer-sharp',

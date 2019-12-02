@@ -32,8 +32,13 @@ query DesignQuery {
             }
           frontmatter {
             title
-            main_picture
-            gallery
+            main_picture {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  src
+                }
+              }
+            }
             categories {
               design
               performance

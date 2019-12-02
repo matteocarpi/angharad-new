@@ -32,7 +32,13 @@ query TheatreMakingQuery {
             }
           frontmatter {
             title
-            main_picture
+            main_picture {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  src
+                }
+              }
+            }
             gallery
             categories {
               design

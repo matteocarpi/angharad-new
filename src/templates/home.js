@@ -6,6 +6,7 @@ import styles from '../styles/Home.module.scss';
 import ProjectList from '../components/projectList';
 import PropTypes from 'prop-types';
 import CategorySelector from '../components/categorySelector';
+import Img from 'gatsby-image';
 
 if (typeof window !== 'undefined') {
   // eslint-disable-next-line
@@ -14,10 +15,11 @@ if (typeof window !== 'undefined') {
 
 const Home = ({ data }) => {
   const posts = data.currentWork.edges;
+  const image = data.homeData.edges[0].node.frontmatter.home_picture.childImageSharp.fluid.src;
   return (
     <Layout>
       <div style={{
-        backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.50) 3%, rgba(0,0,0,0) 100%), url(${data.homeData.edges[0].node.frontmatter.home_picture})`,
+        backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.50) 3%, rgba(0,0,0,0) 100%), url(${data.homeData.edges[0].node.frontmatter.home_picture.childImageSharp.fluid.src})`,
       }}
       className={styles.titleSlide}
       >
@@ -28,6 +30,10 @@ const Home = ({ data }) => {
 
       </div>
 
+      <Img
+        fluid={image}
+      />
+        
       <ProjectList
         title="Current Work"
         posts={posts}
@@ -48,7 +54,14 @@ export const query = graphql`
       edges {
         node {
           frontmatter {
-            home_picture
+            home_picture {
+              id
+              childImageSharp {
+                fluid(maxWidth: 1920) {
+                  src
+                }
+              }
+            }
           }
         }
       }
@@ -61,7 +74,13 @@ export const query = graphql`
         }
         frontmatter {
           title
-          main_picture
+          main_picture {
+            childImageSharp {
+              fluid(maxWidth: 800) {
+                src
+              }
+            }
+          }
           gallery
           categories {
             design

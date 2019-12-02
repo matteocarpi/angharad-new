@@ -1,32 +1,47 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Layout from '../components/layout';
 import styles from '../styles/Project.module.scss';
 import { graphql } from 'gatsby';
 import { PropTypes } from 'prop-types';
 import Markdown from 'markdown-to-jsx';
-import Carousel from 'react-images';
+import Modali, { useModali } from 'modali';
 
 const Project = ({ data }) => {
-  
+  const images = data.postData.frontmatter.gallery;
+  const [selectedImage, setSelectedImage] = useState();
+  const [lightbox, toggleLightbox] = useModali();
+
   return (
     <Layout>
       <div className={styles.project}>
-
+        <Modali.Modal {...lightbox}>
+          <img src={selectedImage}/>
+        </Modali.Modal>
         <section className={styles.visual}>
-          <div onClick={() => } className={styles.gallery}>
-            {data.postData.frontmatter.gallery.map((image) => {
-              return (
-                <div 
-                  key={styles.image}
-                  style={{
-                    backgroundImage: `url(${image})`,
-                  }} 
-                  className={styles.image}
+          {images.map(image => {
+            return (
+              <button
+                key={image} 
+                onClick={() => {
+                  toggleLightbox();
+                  setSelectedImage(image);
+                }}
+              >
+                <img 
+                  src={image}
                 />
-              );
-            })}
-          </div>
+              </button>
+            );
+          })}
 
+          <div className={styles.lightbox}>
+            <div 
+              className={styles.image}
+              styles={{
+                backgroundImage: `url(${selectedImage})`,
+              }}
+            />
+          </div>
         </section>
         
         <section className={styles.reading}>
@@ -48,7 +63,6 @@ query PostData($slug: String!) {
   postData: markdownRemark(fields: {slug: {eq: $slug}}) {
         frontmatter {
           title
-          main_picture
           gallery
         }
         internal {
