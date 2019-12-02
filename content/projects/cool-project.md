@@ -14,6 +14,9 @@ categories:
   design: true
   theatre_making: true
 current_work: true
+video: true
+video-link: https://www.youtube.com/watch?v=3oUSeMQ1ahQ
+
 ---
 Quis exercitation officia ad irure in. Nostrud nisi voluptate cupidatat aliqua mollit veniam velit consequat pariatur velit et. Duis sunt consequat ad esse veniam sint qui id dolore in exercitation.
 

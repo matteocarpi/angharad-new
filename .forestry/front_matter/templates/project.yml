@@ -32,11 +32,18 @@ fields:
     time_format: 
     display_utc: false
   default: now
-- name: main_picture
-  type: file
+- name: video
+  type: boolean
+  label: Video
+- name: video-link
+  type: text
   config:
-    maxSize: 250
-  label: Main Picture
+    required: false
+  label: Video-link
+  description: insert the link of the video (from Vimeo Youtube or similar)
+  showOnly:
+    field: video
+    value: true
 - name: gallery
   type: image_gallery
   config: {}
