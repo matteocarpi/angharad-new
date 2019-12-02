@@ -32,10 +32,6 @@ fields:
     time_format: 
     display_utc: false
   default: now
-- name: gallery
-  type: image_gallery
-  config: {}
-  label: Gallery
 - name: video
   type: boolean
   label: Video
@@ -48,3 +44,7 @@ fields:
   showOnly:
     field: video
     value: true
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
