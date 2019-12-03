@@ -10,9 +10,15 @@
         justify-content: space-between;
         flex-wrap: wrap;
         align-items: center;
+        .videoWrap {
+            width: 100%;
+            height: 100%*9/16;
+            margin: 0 1rem;
+        }
         .thumbWrap {
             width: 30%;
             cursor: pointer;
+            background: transparent;
         }
         .thumbWrap.first {
             width: 100%;
