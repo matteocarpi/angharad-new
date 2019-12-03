@@ -81,7 +81,10 @@ const Header = ({ siteTitle }) => {
                 <ul>
                   {item.secondLevel.map((subItem) => {
                     return (
-                      <li key={subItem.name}>
+                      <li 
+                        key={subItem.name}
+                        className={styles.whiteBackground}
+                      >
                         <Link to ={subItem.url}>
                           {subItem.name}
                         </Link>
