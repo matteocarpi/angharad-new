@@ -89,5 +89,5 @@ const CategorySelector = (props) => {
 export default CategorySelector;
 
 CategorySelector.propTypes = {
-  page: PropTypes.oneOf(['Performance', 'Design', 'Theatre Making']),
+  page: PropTypes.oneOf(['Performance', 'Design', 'Theatre Making', 'Home']),
 };
