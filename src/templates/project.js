@@ -7,6 +7,7 @@ import Markdown from 'markdown-to-jsx';
 import Modali, { useModali } from 'modali';
 import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
 import classnames from 'classnames';
+import ReactPlayer from 'react-player';
 
 const Project = ({ data }) => {
   const images = data.postData.frontmatter.gallery;
@@ -34,7 +35,17 @@ const Project = ({ data }) => {
               }}/>
           </div>
         </Modali.Modal>
+
         <section className={styles.visual}>
+          {data.postData.frontmatter.video && (
+            <div className={styles.videoWrap}>
+              <ReactPlayer 
+                url={data.postData.frontmatter.videoLink}
+                width="100%"
+                height="100%"
+              />
+            </div>
+          )}
           {images.map((image, index) => {
             return (
               <button
@@ -43,13 +54,15 @@ const Project = ({ data }) => {
                   toggleLightbox();
                   setSelectedImage(index);
                 }}
-                className={classnames(styles.thumbWrap, index === 0 && styles.first)}
+                className={classnames(styles.thumbWrap, !data.postData.frontmatter.video && index === 0 && styles.first)}
               >
+
                 <div 
-                  className={classnames(styles.thumb, index === 0 && styles.first)}
+                  className={classnames(styles.thumb, !data.postData.frontmatter.video && index === 0 && styles.first)}
                   style={{
                     backgroundImage: `url(${images[index]})`}}
                 />
+
               </button>
             );
           })}
@@ -57,9 +70,7 @@ const Project = ({ data }) => {
         
         <section className={styles.reading}>
           <h1>{data.postData.frontmatter.title}</h1>
-          <p>
-            <Markdown>{data.postData.internal.content}</Markdown>
-          </p>
+          <Markdown>{data.postData.internal.content}</Markdown>
         </section>
 
       </div>
@@ -75,6 +86,8 @@ query PostData($slug: String!) {
         frontmatter {
           title
           gallery
+          video
+          videoLink
         }
         internal {
           content
