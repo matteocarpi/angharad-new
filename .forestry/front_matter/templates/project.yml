@@ -35,7 +35,7 @@ fields:
 - name: video
   type: boolean
   label: Video
-- name: video-link
+- name: videoLink
   type: text
   config:
     required: false
