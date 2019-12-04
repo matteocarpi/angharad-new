@@ -7,6 +7,9 @@ sections:
 - type: document
   path: content/pages/index.md
   label: Home
+- type: document
+  path: content/pages/about.md
+  label: About
 - type: directory
   path: content/projects
   label: Projects
@@ -14,9 +17,6 @@ sections:
   match: "**/*"
   templates:
   - project
-- type: document
-  path: content/pages/about.md
-  label: About
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
