@@ -7,9 +7,6 @@ import ProjectList from '../components/projectList';
 import PropTypes from 'prop-types';
 import CategorySelector from '../components/categorySelector';
 
-// eslint-disable-next-line no-undef
-require('smooth-scroll')('a[href*="#"]');
-
 const Home = ({ data }) => {
   const posts = data.currentWork.edges;
 
