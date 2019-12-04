@@ -29,10 +29,6 @@ const Home = ({ data }) => {
         </div>
 
       </div>
-
-      <Img
-        fluid={image}
-      />
         
       <ProjectList
         title="Current Work"

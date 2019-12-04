@@ -1,0 +1,18 @@
+.container {
+    width: 100%;
+    display: flex;
+    .left {
+        width: 50%;
+    }
+    .headshot {
+        width: 60%;
+        padding-top: 60%*15/10;
+        background-size: cover;
+        background-position: center;
+        margin: 0 auto;
+    }
+    .right {
+        width: 50%;
+        margin: 0 2rem;
+    }
+}
