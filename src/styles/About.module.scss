@@ -15,4 +15,12 @@
         width: 50%;
         margin: 0 2rem;
     }
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        .download {
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
 }

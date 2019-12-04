@@ -24,7 +24,7 @@ const About = ({ data }) => {
 
         <div className={styles.right}>
           <h2>{data.site.siteMetadata.title}</h2>
-          <h4>Performer - Designer - Theatre Maker</h4>
+          <h5>Performer - Designer - Theatre Maker</h5>
           <h3>Wales/Berlin</h3>
           <Markdown>{file.frontmatter.biography}</Markdown>
           
@@ -38,6 +38,8 @@ const About = ({ data }) => {
                 <p key={link.url}><strong>{link.name}: </strong><a href={link.url}> {link.url}</a></p>
               );
             })}
+
+            <a className={styles.download} download="CV" target="blank" href={file.frontmatter.cv}>Download CV</a>
           </div>
 
         </div>
