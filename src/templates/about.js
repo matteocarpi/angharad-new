@@ -41,7 +41,7 @@ const About = ({ data }) => {
               );
             })}
 
-            <a className={styles.download} download="CV" target="blank" href={file.frontmatter.cv}>Download CV</a>
+            <a className={styles.download} download="CV" target="blank" href={file.frontmatter.cv.absolutePath}>Download CV</a>
           </div>
 
         </div>
@@ -61,7 +61,9 @@ query MyQuery {
       node {
         frontmatter {
           biography
-          cv
+          cv {
+            absolutePath
+          }
           email
           headshot {
             childImageSharp {
