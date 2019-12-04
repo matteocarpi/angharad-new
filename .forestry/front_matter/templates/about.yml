@@ -33,5 +33,11 @@ fields:
   config:
     maxSize: 250
   label: CV
+- name: additional_links
+  type: include
+  config: {}
+  template: link
+  label: Additional Links
+  description: "(Facebook, Spotlight, YouTube Channel etc."
 pages:
 - content/pages/about.md
