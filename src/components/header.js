@@ -5,45 +5,46 @@ import styles from '../styles/Header.module.scss';
 import navigation from '../data/navigation.json';
 import classnames from 'classnames';
 import { FaBars } from 'react-icons/fa';
+import {Location } from '@reach/router';
 
 const Header = ({ siteTitle }) => {
 
-  // eslint-disable-next-line no-undef
-  const location = window.location.pathname;
   const [displayMenu, setDisplayMenu] = useState(false);
   const [displaySecondLevel, setDisplaySecondLevel] = useState(false);
   return(
-    <header
-      className={classnames(styles.header, location === '/' && styles.home)}
-    >
-      <div className={styles.headerTop}>
+    <Location>
+      {({ location }) => (
+        <header
+          className={classnames(styles.header, location.pathname === '/' && styles.home)}
+        >
+          <div className={styles.headerTop}>
 
-        <h2 className={classnames(styles.logo, location === '/' && styles.hide)}>
-          <Link
-            to="/"
-          >
-            {siteTitle}
-          </Link>
-        </h2>
-        <FaBars className={styles.menuIcon} onClick={() => setDisplayMenu(!displayMenu)}/>
-      </div>
+            <h2 className={classnames(styles.logo, location.pathname === '/' && styles.hide)}>
+              <Link
+                to="/"
+              >
+                {siteTitle}
+              </Link>
+            </h2>
+            <FaBars className={styles.menuIcon} onClick={() => setDisplayMenu(!displayMenu)}/>
+          </div>
 
-      <nav className={classnames(styles.navigation, styles.mobile)}>
-        <ul className={displayMenu ? styles.displayNavigation : styles.hideNavigation}>
-          {navigation.map((item) => {
-            return (
-              <li key={item.name}>
-                {!item.secondLevel ? 
+          <nav className={classnames(styles.navigation, styles.mobile)}>
+            <ul className={displayMenu ? styles.displayNavigation : styles.hideNavigation}>
+              {navigation.map((item) => {
+                return (
+                  <li key={item.name}>
+                    {!item.secondLevel ? 
                 
-                  <Link className={styles.menuItem} activeClassName={styles.active} onClick={!item.secondLevel ? () => setDisplayMenu(false) : () => setDisplaySecondLevel(!displaySecondLevel)} to={item.url}> 
-                    {item.name}
-                  </Link>
+                      <Link className={styles.menuItem} activeClassName={styles.active} onClick={!item.secondLevel ? () => setDisplayMenu(false) : () => setDisplaySecondLevel(!displaySecondLevel)} to={item.url}> 
+                        {item.name}
+                      </Link>
               
-                  :
-                  `${item.name}`
-                }
+                      :
+                      `${item.name}`
+                    }
 
-                {item.secondLevel &&
+                    {item.secondLevel &&
 
                 <ul className={displaySecondLevel ? styles.show : styles.hide}>
                   {item.secondLevel.map((subItem) => {
@@ -57,33 +58,33 @@ const Header = ({ siteTitle }) => {
                   },
                   )}
                 </ul>
-                }
-              </li>
-            );
-          })}
-        </ul>
-      </nav>
+                    }
+                  </li>
+                );
+              })}
+            </ul>
+          </nav>
 
-      <nav className={classnames(styles.navigation, styles.desktop)}>
-        <ul>
-          {navigation.map((item) => {
-            return (
-              <li className={classnames(styles.menuItem, location === '/' && styles.white)} key={item.name}>
-                {!item.secondLevel ?
-                  <Link to={item.url}>
-                    {item.name}
-                  </Link>
+          <nav className={classnames(styles.navigation, styles.desktop)}>
+            <ul>
+              {navigation.map((item) => {
+                return (
+                  <li className={classnames(styles.menuItem, location === '/' && styles.white)} key={item.name}>
+                    {!item.secondLevel ?
+                      <Link to={item.url}>
+                        {item.name}
+                      </Link>
 
-                  :
-                  `${item.name}`
-                }
-                {item.secondLevel &&
+                      :
+                      `${item.name}`
+                    }
+                    {item.secondLevel &&
                 <ul>
                   {item.secondLevel.map((subItem) => {
                     return (
                       <li 
                         key={subItem.name}
-                        className={location !== '/' && styles.whiteBackground}
+                        className={location.pathname !== '/' && styles.whiteBackground}
                       >
                         <Link to ={subItem.url}>
                           {subItem.name}
@@ -93,14 +94,16 @@ const Header = ({ siteTitle }) => {
                   },
                   )}
                 </ul>
-                }
-              </li>
-            );
-          })}
-        </ul>
-      </nav>
+                    }
+                  </li>
+                );
+              })}
+            </ul>
+          </nav>
 
-    </header>
+        </header>
+      )}
+    </Location>
   );
 };
 

@@ -6,16 +6,13 @@ import styles from '../styles/Home.module.scss';
 import ProjectList from '../components/projectList';
 import PropTypes from 'prop-types';
 import CategorySelector from '../components/categorySelector';
-import Img from 'gatsby-image';
 
-if (typeof window !== 'undefined') {
-  // eslint-disable-next-line
-  require('smooth-scroll')('a[href*="#"]');
-}
+// eslint-disable-next-line no-undef
+require('smooth-scroll')('a[href*="#"]');
 
 const Home = ({ data }) => {
   const posts = data.currentWork.edges;
-  const image = data.homeData.edges[0].node.frontmatter.home_picture.childImageSharp.fluid.src;
+
   return (
     <Layout>
       <div style={{

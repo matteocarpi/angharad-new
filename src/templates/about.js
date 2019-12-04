@@ -4,13 +4,15 @@ import styles from '../styles/About.module.scss';
 import { graphql } from 'gatsby';
 import { PropTypes } from 'prop-types';
 import Markdown from 'markdown-to-jsx';
+
 const About = ({ data }) => {
   const file = data.aboutData.edges[0].node;
   const links = file.frontmatter.additional_links.map(link => { 
     return link;
   });
-
+  
   return (
+
     <Layout>
       <div className={styles.container}>
         <div className={styles.left}>
