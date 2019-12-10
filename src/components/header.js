@@ -84,7 +84,7 @@ const Header = ({ siteTitle }) => {
                     return (
                       <li 
                         key={subItem.name}
-                        className={location !== '/' && styles.whiteBackground}
+                        className={location.pathname !== '/' && styles.whiteBackground}
                       >
                         <Link to ={subItem.url}>
                           {subItem.name}
