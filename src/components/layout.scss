@@ -43,8 +43,8 @@ template {
 }
 a {
   background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-  text-decoration: none;
+  -webkit-text-decoration-skip: objects; 
+  color: $grey;
 }
 a:active,
 a:hover {
@@ -59,6 +59,7 @@ b,
 strong {
   font-weight: inherit;
   font-weight: bolder;
+  color: $grey;
 }
 dfn {
   font-style: italic;
@@ -380,6 +381,7 @@ p {
   padding-top: 0;
   margin-bottom: 1.45rem;
   font-size: 14px;
+  color: $grey;
 }
 figure {
   margin-left: 0;

@@ -32,12 +32,12 @@ const About = ({ data }) => {
           
           <div className={styles.contacts}>
 
-            <p><strong>Email:</strong><a href={`mailto:${file.frontmatter.email}`}> {file.frontmatter.email}</a></p>
+            <p><strong>Email: </strong><a href={`mailto:${file.frontmatter.email}`}>{file.frontmatter.email}</a></p>
 
 
             {links.map(link => {
               return (
-                <p key={link.url}><strong>{link.name}: </strong><a href={link.url}> {link.url}</a></p>
+                <p key={link.url}><strong>{link.name}: </strong><a href={link.url}>{link.url}</a></p>
               );
             })}
 
