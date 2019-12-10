@@ -3,6 +3,7 @@ date: 2019-11-06T13:47:07.000+00:00
 title: Awesome Giraffe
 main_picture: "/uploads/simon-matzinger-Gpck1WkgxIk-unsplash.jpg"
 gallery:
+- "/uploads/logo-1.png"
 - "/uploads/PROEGELHOEF.jpg"
 - "/uploads/swapnil-dwivedi-N2IJ31xZ_ks-unsplash-1.jpg"
 - "/uploads/swapnil-dwivedi-N2IJ31xZ_ks-unsplash.jpg"
@@ -12,6 +13,7 @@ categories:
   design: true
   theatre_making: true
 current_work: true
+
 ---
 Quis exercitation officia ad irure in. Nostrud nisi voluptate cupidatat aliqua mollit veniam velit consequat pariatur velit et. Duis sunt consequat ad esse veniam sint qui id dolore in exercitation.
 
