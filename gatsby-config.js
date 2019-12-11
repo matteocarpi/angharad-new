@@ -73,17 +73,7 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: 'gatsby-plugin-react-css-modules-scss-support',
-      options: {
-        localIdentName: '_[hash:base64:20]',
-        sassLoader: {
-          // sass-loader options
-          // eslint-disable-next-line no-undef
-          implementation: require('dart-sass'), // switch the implementation such as dart-sass
-        },
-      },
-    },
+    'gatsby-plugin-sass',
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
