@@ -24,3 +24,20 @@
         }
     }
 }
+
+@media (max-width: 769px) {
+    .container {
+        flex-direction: column;
+        .right, .left {
+            width: 100%;
+        }
+        .left {
+            margin-bottom: 1rem;
+        }
+           .right {
+                h2 {
+                    display: none;
+                }
+            }
+    }
+}
