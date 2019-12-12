@@ -1,5 +1,6 @@
 @import "_constants.scss";
 
+
 .white {
     color: white;
 }
@@ -13,16 +14,24 @@
     padding: 1rem;
     z-index: 1;
     .headerTop {
+        .menuIcon {
+            margin-top: 0.46rem;
+        }
         .logo {
             a {
                 color: $grey;
                 text-decoration: none;
             }
         }
+        .logo.frontWhite {
+            a {
+                color: white;
+                z-index: 10;
+            }
+        }
     }
     .navigation {
         * {
-            color: $grey;
             text-decoration: none;
         }
         li {
@@ -31,25 +40,23 @@
         }
         
         li:hover {
-                text-decoration: underline;
+            text-decoration: underline;
         }
-
+        
         .active {
             text-decoration: underline;
         }
     }
-
+    
     .menuItem {
         cursor: pointer;
+        text-decoration: none;
     }
 }
 
 .header.home {
     position: absolute;
     width: 100%;
-    .menuIcon {
-        color: white;
-    }
     .logo {
         color: white;
     }
@@ -90,7 +97,7 @@ nav.navigation.desktop {
                 visibility: hidden;
                 opacity: 0;
                 margin: 1rem 0;
-
+                
                 li {
                     border: solid $grey 1px;
                     margin: 0;
@@ -104,21 +111,38 @@ nav.navigation.desktop {
                 visibility: visible;
                 opacity: 1;
             }
-        ul:hover {
-            display: flex;
+            ul:hover {
+                display: flex;
             }
         }
     }
 }
-
+.background-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    * {
+        color: white;
+    }
+}
 .navigation.mobile {
+    .menuItem {
+        color: white;
+    }
     display: flex;
     flex-direction: column;
     ul {
         flex-direction: column;
+        
+        li {
+            ul {
+                li {
+                    list-style: inside;
+                }
+            }
+        }
     }
     .displayNavigation {
         display: flex;
+        
     }
     .hideNavigation {
         display: none;
@@ -128,7 +152,6 @@ nav.navigation.desktop {
 .headerTop {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around; 
 }
 

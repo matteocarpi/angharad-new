@@ -11,29 +11,30 @@ const Header = ({ siteTitle }) => {
 
   const [displayMenu, setDisplayMenu] = useState(false);
   const [displaySecondLevel, setDisplaySecondLevel] = useState(false);
+  
   return(
     <Location>
       {({ location }) => (
         <header
-          className={classnames(styles.header, location.pathname === '/' && styles.home)}
+          className={classnames(displayMenu && styles.backgroundOverlay, styles.header, location.pathname === '/' && styles.home)}
         >
           <div className={styles.headerTop}>
 
-            <h2 className={classnames(styles.logo, location.pathname === '/' && styles.hide)}>
+            <h2 className={classnames(styles.logo, displayMenu && styles.frontWhite, location.pathname === '/' && styles.hide)}>
               <Link
                 to="/"
               >
                 {siteTitle}
               </Link>
             </h2>
-            <FaBars className={styles.menuIcon} onClick={() => setDisplayMenu(!displayMenu)}/>
+            <FaBars className={classnames(styles.menuIcon, location.pathname === '/' && styles.white)} onClick={() => setDisplayMenu(!displayMenu)}/>
           </div>
 
           <nav className={classnames(styles.navigation, styles.mobile)}>
             <ul className={displayMenu ? styles.displayNavigation : styles.hideNavigation}>
               {navigation.map((item) => {
                 return (
-                  <li key={item.name}>
+                  <li className={styles.menuItem} key={item.name} onClick={() => setDisplaySecondLevel(!displaySecondLevel)}>
                     {!item.secondLevel ? 
                 
                       <Link className={styles.menuItem} activeClassName={styles.active} onClick={!item.secondLevel ? () => setDisplayMenu(false) : () => setDisplaySecondLevel(!displaySecondLevel)} to={item.url}> 
@@ -46,11 +47,11 @@ const Header = ({ siteTitle }) => {
 
                     {item.secondLevel &&
 
-                <ul className={displaySecondLevel ? styles.show : styles.hide}>
+                <ul className={classnames(displaySecondLevel ? styles.show : styles.hide, styles.menuItem)}>
                   {item.secondLevel.map((subItem) => {
                     return (
-                      <li key={subItem.name}>
-                        <Link to={subItem.url}>
+                      <li className={styles.menuItem} key={subItem.name}>
+                        <Link className={styles.white} to={subItem.url}>
                           {subItem.name}
                         </Link>
                       </li>
