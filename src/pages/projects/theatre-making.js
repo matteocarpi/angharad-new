@@ -39,7 +39,6 @@ query TheatreMakingQuery {
                 }
               }
             }
-            gallery
             categories {
               design
               performance

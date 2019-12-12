@@ -85,7 +85,13 @@ query PostData($slug: String!) {
   postData: markdownRemark(fields: {slug: {eq: $slug}}) {
         frontmatter {
           title
-          gallery
+          gallery {
+            childImageSharp {
+              fluid {
+                src
+              }
+            }
+          }
           video
           videoLink
         }
