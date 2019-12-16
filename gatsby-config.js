@@ -1,4 +1,4 @@
-// eslint-disable-next-line no-undef
+/* eslint-env node */
 module.exports = {
   siteMetadata: {
     title: 'Angharad Matthews',
@@ -22,16 +22,16 @@ module.exports = {
     //     ]
     //   }
     // }
+    'gatsby-plugin-sass',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    'gatsby-transformer-remark',
     'gatsby-plugin-smoothscroll',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          'gatsby-remark-normalize-paths',
+          '@forestryio/gatsby-remark-normalize-paths',
         ],
       },
     },
@@ -39,7 +39,6 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'pages',
-        // eslint-disable-next-line no-undef
         path: `${__dirname}/content/pages/`,
       },
     },
@@ -47,20 +46,15 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'projects',
-        // eslint-disable-next-line no-undef
         path: `${__dirname}/content/projects`,
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        // eslint-disable-next-line no-undef
         path: `${__dirname}/uploads`,
       },
     },
-    'gatsby-transformer-sharp',
-    'gatsby-transformer-remark',
-    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -73,7 +67,6 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-sass',
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

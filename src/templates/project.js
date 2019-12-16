@@ -11,27 +11,26 @@ import ReactPlayer from 'react-player';
 
 const Project = ({ data }) => {
   const images = data.postData.frontmatter.gallery;
-  let [selectedImage, setSelectedImage] = useState();
+  let [selectedImage, setSelectedImage] = useState(0);
   const [lightbox, toggleLightbox] = useModali({ centered: true, large:true });
-
   return (
     <Layout>
       <div className={styles.project}>
-        <Modali.Modal 
+        <Modali.Modal
           {...lightbox}
         >
           <div
             className={styles.lightboxContainer}
           >
-            <FaChevronLeft className={styles.navIcon} onClick={() => setSelectedImage(selectedImage = selectedImage - 1)}/>
-            <img className={styles.image} src={images[selectedImage]}/>
-            <FaChevronRight 
-              className={styles.navIcon} 
+            <FaChevronLeft className={styles.navIcon} onClick={() => setSelectedImage(selectedImage - 1)}/>
+            <img className={styles.image} src={images[selectedImage].childImageSharp.fluid.src}/>
+            <FaChevronRight
+              className={styles.navIcon}
               onClick={() => {
-                selectedImage === images.length - 1 ? 
+                selectedImage === images.length - 1 ?
                   setSelectedImage(0)
                   :
-                  setSelectedImage(selectedImage = selectedImage + 1);
+                  setSelectedImage(selectedImage + 1);
               }}/>
           </div>
         </Modali.Modal>
@@ -39,7 +38,7 @@ const Project = ({ data }) => {
         <section className={styles.visual}>
           {data.postData.frontmatter.video && (
             <div className={styles.videoWrap}>
-              <ReactPlayer 
+              <ReactPlayer
                 url={data.postData.frontmatter.videoLink}
                 width="100%"
                 height="100%"
@@ -49,7 +48,7 @@ const Project = ({ data }) => {
           {images.map((image, index) => {
             return (
               <button
-                key={images[index]} 
+                key={image}
                 onClick={() => {
                   toggleLightbox();
                   setSelectedImage(index);
@@ -57,17 +56,17 @@ const Project = ({ data }) => {
                 className={classnames(styles.thumbWrap, !data.postData.frontmatter.video && index === 0 && styles.first)}
               >
 
-                <div 
+                <div
                   className={classnames(styles.thumb, !data.postData.frontmatter.video && index === 0 && styles.first)}
                   style={{
-                    backgroundImage: `url(${images[index]})`}}
+                    backgroundImage: `url(${image.childImageSharp.fluid.src})`}}
                 />
 
               </button>
             );
           })}
         </section>
-        
+
         <section className={styles.reading}>
           <h1>{data.postData.frontmatter.title}</h1>
           <Markdown>{data.postData.internal.content}</Markdown>
