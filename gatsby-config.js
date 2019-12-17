@@ -24,7 +24,6 @@ module.exports = {
     // }
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    'gatsby-transformer-remark',
     'gatsby-plugin-smoothscroll',
     'gatsby-plugin-react-helmet',
     {
@@ -58,9 +57,6 @@ module.exports = {
         path: `${__dirname}/uploads`,
       },
     },
-    'gatsby-transformer-sharp',
-    'gatsby-transformer-remark',
-    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
