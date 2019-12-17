@@ -35,7 +35,7 @@ exports.createPages = async ({ graphql, actions }) => {
             }
           }
         }
-      }      
+      }
     `);
   home.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
@@ -59,7 +59,7 @@ exports.createPages = async ({ graphql, actions }) => {
             }
           }
         }
-      }      
+      }
       `);
   about.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
@@ -72,7 +72,7 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     });
   });
-      
+
   const projects = await graphql(`
       query {
         allMarkdownRemark(filter: {fields: {slug: {nin: ["/", "/about/"]}}}) {
@@ -84,7 +84,7 @@ exports.createPages = async ({ graphql, actions }) => {
             }
           }
         }
-      }         
+      }
       `);
   projects.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
@@ -97,18 +97,4 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     });
   });
-};
-
-exports.createSchemaCustomization = ({ actions }) => {
-  const { createTypes } = actions;
-  const typeDefs = `
-    type MarkdownRemark
-    implements Node {
-      frontmatter: Frontmatter
-    }
-    type Frontmatter {
-      gallery: [File]
-    }
-  `;
-  createTypes(typeDefs);
 };
