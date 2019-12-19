@@ -5,7 +5,7 @@ import styles from '../styles/Header.module.scss';
 import navigation from '../data/navigation.json';
 import classnames from 'classnames';
 import { FaBars } from 'react-icons/fa';
-import {Location } from '@reach/router';
+import { Location } from '@reach/router';
 
 const Header = ({ siteTitle }) => {
 
