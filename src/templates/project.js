@@ -37,6 +37,7 @@ const Project = ({ data }) => {
           </div>
         </Modali.Modal>
 
+        <h1 className={styles.mobileTitle}>{data.postData.frontmatter.title}</h1>
         <section className={styles.visual}>
           {data.postData.frontmatter.video && (
             <div className={styles.videoWrap}>
@@ -73,7 +74,7 @@ const Project = ({ data }) => {
         </section>
 
         <section className={styles.reading}>
-          <h1>{data.postData.frontmatter.title}</h1>
+          <h1 className={styles.desktopTitle}>{data.postData.frontmatter.title}</h1>
           <Markdown>{data.postData.internal.content}</Markdown>
         </section>
 
