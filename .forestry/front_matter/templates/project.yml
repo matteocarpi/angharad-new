@@ -53,5 +53,4 @@ fields:
   config: {}
   label: Gallery
 pages:
-- content/projects/artchivio.md
 - content/projects/mission-control.md
