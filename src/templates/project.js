@@ -8,11 +8,13 @@ import Modali, { useModali } from 'modali';
 import { FaChevronRight, FaChevronLeft } from 'react-icons/fa';
 import classnames from 'classnames';
 import ReactPlayer from 'react-player';
+import Img from 'gatsby-image';
 
 const Project = ({ data }) => {
   const images = data.postData.frontmatter.gallery;
   let [selectedImage, setSelectedImage] = useState(0);
   const [lightbox, toggleLightbox] = useModali({ centered: true, large:true });
+  
   return (
     <Layout>
       <div className={styles.project}>
@@ -23,7 +25,7 @@ const Project = ({ data }) => {
             className={styles.lightboxContainer}
           >
             <FaChevronLeft className={styles.navIcon} onClick={() => setSelectedImage(selectedImage - 1)}/>
-            <img className={styles.image} src={images[selectedImage].childImageSharp.fluid.src}/>
+            <Img className={styles.image} fluid={images[selectedImage].childImageSharp.fluid}/>
             <FaChevronRight
               className={styles.navIcon}
               onClick={() => {
@@ -46,6 +48,13 @@ const Project = ({ data }) => {
             </div>
           )}
           {images.map((image, index) => {
+            const square = {
+              ...image.childImageSharp.fluid, 
+              aspectRatio: 1/1
+            };
+            const rectangle = {
+              ...image.childImageSharp.fluid, aspectRatio: 16/9
+            }
             return (
               <button
                 key={image}
@@ -55,12 +64,8 @@ const Project = ({ data }) => {
                 }}
                 className={classnames(styles.thumbWrap, !data.postData.frontmatter.video && index === 0 && styles.first)}
               >
-
-                <div
-                  className={classnames(styles.thumb, !data.postData.frontmatter.video && index === 0 && styles.first)}
-                  style={{
-                    backgroundImage: `url(${image.childImageSharp.fluid.src})`}}
-                />
+              
+                <Img className={classnames(styles.thumb, !data.postData.frontmatter.video && index === 0 && styles.first)} sizes={!data.postData.frontmatter.video && index === 0 ? rectangle : square} />
 
               </button>
             );
@@ -86,8 +91,8 @@ query PostData($slug: String!) {
           title
           gallery {
             childImageSharp {
-              fluid {
-                src
+              fluid(maxWidth: 1024) {
+                ...GatsbyImageSharpFluid
               }
             }
           }

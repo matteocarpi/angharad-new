@@ -25,12 +25,10 @@
         }
         .thumb {
             width: 100%;
-            padding-top: 100%;
             background-position: center;
             background-size: cover;
             margin: 1rem 0;
             &.first {
-                padding-top: 100%*9/16;
                 margin-top: 0;
             }
         }
@@ -40,12 +38,6 @@
         width: 40%;
         margin: 0 1rem;
     }
-}
-.image {
-    max-height: 80vh;
-    width: 80%;
-    object-fit: contain;
-    margin-bottom: 61px;
 }
 
 .lightboxContainer {
