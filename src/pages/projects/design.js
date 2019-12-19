@@ -32,7 +32,7 @@ query DesignQuery {
             }
           frontmatter {
             title
-            main_picture {
+            gallery {
               childImageSharp {
                 fluid(maxWidth: 300, maxHeight: 300) {
                   ...GatsbyImageSharpFluid
