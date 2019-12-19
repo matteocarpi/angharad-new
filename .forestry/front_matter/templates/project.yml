@@ -7,6 +7,10 @@ fields:
   config:
     required: true
   label: Title
+- name: current_work
+  type: boolean
+  label: Current Work
+  description: This is a project you are working on at the moment
 - name: categories
   type: field_group
   config: {}
