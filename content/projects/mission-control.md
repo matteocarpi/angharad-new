@@ -1,0 +1,29 @@
+---
+categories:
+  performance: false
+  design: true
+  theatre_making: false
+date: 2019-12-19T11:12:08Z
+title: Mission Control
+thumbnail: "/uploads/MCeditedforweb.jpg"
+video: true
+videoLink: https://youtu.be/c5kaqeikNq0
+gallery: []
+
+---
+**Hijinx Unity Festival & National Theatre Wales**
+
+**Directed by Ben Pettitt-Wade and Kully Thiarai**  
+**Created with Seiriol Davies**
+
+A short message from Monolith, your favourite Megacorporation:
+
+It’s been one hell of a year. Society is polarized, we are overpopulated, battered by extreme weather and as for democracy – well, it was nice while it lasted. Welcome to 2029.
+
+But wait, there is hope! Look up, see the new planet in our solar system. Humanity has a second chance.
+
+As leaders in, well, everything, Monolith has secured the exclusive rights to colonise the planet. Any day now our shuttles will launch from the Monolith National Crisis Centre.
+
+And you can join us. Together #WeAreMonolith
+
+Created by Hijinx Unity Festival & National Theatre Wales and performed in the iconic Principality Stadium, Cardiff, Mission Control is an immersive show like no other, that will feature an inclusive cast of over 80 performers, including Hijinx Actors.

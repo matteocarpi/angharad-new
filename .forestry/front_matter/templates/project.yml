@@ -53,3 +53,5 @@ fields:
   type: image_gallery
   config: {}
   label: Gallery
+pages:
+- content/projects/mission-control.md
