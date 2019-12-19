@@ -12,6 +12,7 @@ gallery:
 - "/uploads/MCeditedforweb.jpg"
 - "/uploads/MCeditedforweb-2.jpg"
 - "/uploads/MCeditedforweb-1.jpg"
+current_work: true
 
 ---
 **Hijinx Unity Festival & National Theatre Wales**
