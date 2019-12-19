@@ -2,9 +2,8 @@
 date: 2019-11-06T13:47:07.000+00:00
 title: Awesome Giraffe
 gallery:
-- "/uploads/logo-1.png"
-- "/uploads/PROEGELHOEF.jpg"
 - "/uploads/swapnil-dwivedi-N2IJ31xZ_ks-unsplash-1.jpg"
+- "/uploads/PROEGELHOEF.jpg"
 - "/uploads/swapnil-dwivedi-N2IJ31xZ_ks-unsplash.jpg"
 - "/uploads/simon-matzinger-Gpck1WkgxIk-unsplash.jpg"
 categories:
