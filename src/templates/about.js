@@ -37,7 +37,7 @@ const About = ({ data }) => {
               );
             })}
 
-            <a className={styles.download} download="CV" target="blank" href={file.frontmatter.cv.absolutePath}>Download CV</a>
+            <a className={styles.download} download="Cv" href={file.frontmatter.cv.publicURL}>Download CV</a>
           </div>
 
         </div>
@@ -58,7 +58,8 @@ query MyQuery {
         frontmatter {
           biography
           cv {
-            absolutePath
+            id
+            publicURL
           }
           email
           headshot {
