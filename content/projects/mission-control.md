@@ -5,10 +5,13 @@ categories:
   theatre_making: false
 date: 2019-12-19T11:12:08Z
 title: Mission Control
-thumbnail: "/uploads/MCeditedforweb.jpg"
+thumbnail: ''
 video: true
 videoLink: https://youtu.be/c5kaqeikNq0
-gallery: []
+gallery:
+- "/uploads/MCeditedforweb.jpg"
+- "/uploads/MCeditedforweb-2.jpg"
+- "/uploads/MCeditedforweb-1.jpg"
 
 ---
 **Hijinx Unity Festival & National Theatre Wales**
