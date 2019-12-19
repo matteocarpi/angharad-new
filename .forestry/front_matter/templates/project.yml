@@ -7,11 +7,6 @@ fields:
   config:
     required: true
   label: Title
-- name: thumbnail
-  type: file
-  config:
-    maxSize: 250
-  label: Preview Image
 - name: categories
   type: field_group
   config: {}
