@@ -3,17 +3,19 @@ import Markdown from 'markdown-to-jsx';
 import styles from '../styles/PostPreview.module.scss';
 import { Link }from 'gatsby';
 import { PropTypes } from 'prop-types';
+import Img from 'gatsby-image';
 
 const PostPreview = (props) => {
   return (
     <div>
       <article className={styles.container}>
-        <div 
+        {/* <div 
           style={{
             backgroundImage: `url(${props.image})`,
           }} 
-          className={styles.image}
-        />
+          
+        /> */}
+        <Img fluid={props.image} className={styles.image}/>
         {/* <img alt={props.image} src={props.image}/> */}
         <Link className={styles.title} to={props.slug}>
           <h3>{props.title}</h3>

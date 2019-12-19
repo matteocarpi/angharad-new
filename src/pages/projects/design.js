@@ -34,8 +34,8 @@ query DesignQuery {
             title
             main_picture {
               childImageSharp {
-                fluid(maxWidth: 800) {
-                  src
+                fluid(maxWidth: 300, maxHeight: 300) {
+                  ...GatsbyImageSharpFluid
                 }
               }
             }
