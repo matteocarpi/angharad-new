@@ -4,6 +4,7 @@ import styles from '../styles/About.module.scss';
 import { graphql } from 'gatsby';
 import { PropTypes } from 'prop-types';
 import Markdown from 'markdown-to-jsx';
+import Img from 'gatsby-image';
 
 const About = ({ data }) => {
   const file = data.aboutData.edges[0].node;
@@ -16,12 +17,7 @@ const About = ({ data }) => {
     <Layout>
       <div className={styles.container}>
         <div className={styles.left}>
-          <div 
-            className={styles.headshot} 
-            style={{
-              backgroundImage: `url(${file.frontmatter.headshot.childImageSharp.fluid.src})`,
-            }}
-          />
+          <Img className={styles.headshot} fluid={file.frontmatter.headshot.childImageSharp.fluid} />
         </div>
 
         <div className={styles.right}>
@@ -68,7 +64,7 @@ query MyQuery {
           headshot {
             childImageSharp {
               fluid {
-                src
+                ...GatsbyImageSharpFluid
               }
             }
           }
