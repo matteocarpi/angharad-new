@@ -49,13 +49,14 @@ const Project = ({ data }) => {
             </div>
           )}
           {images.map((image, index) => {
+            console.log(image);
             const square = {
               ...image.childImageSharp.fluid, 
-              aspectRatio: 1/1
+              aspectRatio: 1 / 1,
             };
             const rectangle = {
-              ...image.childImageSharp.fluid, aspectRatio: 16/9
-            }
+              ...image.childImageSharp.fluid, aspectRatio: 16 / 9,
+            };
             return (
               <button
                 key={image}
