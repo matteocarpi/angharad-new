@@ -56,7 +56,7 @@ export const query = graphql`
         }
       }
     }
-    currentWork: allMarkdownRemark(sort: {fields: [frontmatter___date], order: ASC}, limit: 3, filter: {frontmatter: {current_work: {eq: true}}}) {
+    currentWork: allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, limit: 3, filter: {frontmatter: {current_work: {eq: true}}}) {
     edges {
       node {
         fields {
