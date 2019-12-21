@@ -33,7 +33,7 @@ const About = ({ data }) => {
 
             {links.map(link => {
               return (
-                <p key={link.url}><strong>{link.name}: </strong><a href={link.url}>{link.url}</a></p>
+                <p key={link.url}><strong>{link.name}: </strong><a target="_blank" href={link.url}>{link.url}</a></p>
               );
             })}
 
