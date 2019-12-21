@@ -44,7 +44,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: name
   label: Additional Links
   description: "(Facebook, Spotlight, YouTube Channel etc.)"
 pages:
