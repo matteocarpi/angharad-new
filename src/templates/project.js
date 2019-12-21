@@ -25,7 +25,9 @@ const Project = ({ data }) => {
             className={styles.lightboxContainer}
           >
             <FaChevronLeft className={styles.navIcon} onClick={() => setSelectedImage(selectedImage - 1)}/>
+
             <Img className={styles.image} fluid={images[selectedImage].childImageSharp.fluid}/>
+          
             <FaChevronRight
               className={styles.navIcon}
               onClick={() => {
