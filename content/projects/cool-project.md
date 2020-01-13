@@ -15,8 +15,18 @@ video: true
 videoLink: ''
 
 ---
-Quis exercitation officia ad irure in. Nostrud nisi voluptate cupidatat aliqua mollit veniam velit consequat pariatur velit et. Duis sunt consequat ad esse veniam sint qui id dolore in exercitation.
+**NORMAN BATES IS INNOCENT!**
 
-Sint aliquip tempor sint nostrud reprehenderit consequat ut mollit ea esse proident. Irure duis do eu irure sunt velit adipisicing consequat velit ad non eiusmod. Est exercitation ut mollit voluptate. Nulla est ad nisi adipisicing ex sit labore ullamco adipisicing ullamco eiusmod ipsum. Laboris ad ipsum est Lorem sunt elit laboris occaecat culpa ad ex velit ex minim. Id velit proident aliqua veniam voluptate ea voluptate esse culpa aute sunt ipsum fugiat.
+How much do we really know each other, even those we love?
 
-Ad eiusmod velit quis occaecat labore nisi consectetur do. Officia nisi consequat cillum Lorem nostrud irure ullamco mollit nisi nostrud eu pariatur. Consectetur commodo exercitation est voluptate cillum anim sunt dolor tempor deserunt sint mollit veniam eu. Consectetur consectetur esse velit excepteur fugiat commodo exercitation in. Dolor ea duis id cillum nulla et amet amet sunt pariatur sit commodo. Id nulla nulla velit consectetur incididunt labore eiusmod voluptate deserunt nostrud deserunt veniam.
+**TWELVE CABINS TWELVE VACANCIES** interlinks personal tragedy with the events of Alfred Hitchcock’s seminal sixties horror classic **PSYCHO.**
+
+“Dad died during the first broadcast of Psycho on network TV. Earlier that evening it had been scorching hot in the back yard. There was no breeze. I was 12. And I knew.” At the same time Marion stepped into the shower. This is the moment”
+
+Blending memory with poetic imagery **COMPANY OF** **SIRENS** new piece **TWELVE CABINS TWELVE** **VACANCIES** traces Marion Crane’s journey to the Bates motel and one boy’s entry into a world where things don’t remain the same and where foundations shake.
+
+Written, conceived, directed and performed by Chris Durnall with Angharad Matthews, and original music by Rhys Anderson, **TWELVE CABINS TWELVE** **VACANCIES** is about the nature of loss and how events are captured and treasured in the memory.
+
+**Tuesday 11th June at 8.30 and Wednesday 12th June at 6.30 and 8.00**
+
+**Chapter Theatre. Box Office Market Road, CantonCardiff, WalesUKCF5 1QEt: +44 (0)29 2030 4400**
