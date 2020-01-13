@@ -1,6 +1,6 @@
 ---
-date: 2019-11-06T13:47:07.000+00:00
-title: Cool Project
+date: 2019-06-10T22:00:00Z
+title: 'Twelve Cabins Twelve Vacancies '
 gallery:
 - "/uploads/simon-matzinger-Gpck1WkgxIk-unsplash.jpg"
 - "/uploads/swapnil-dwivedi-N2IJ31xZ_ks-unsplash.jpg"
@@ -10,9 +10,9 @@ categories:
   performance: true
   design: true
   theatre_making: true
-current_work: true
+current_work: false
 video: true
-videoLink: https://www.youtube.com/watch?v=3oUSeMQ1ahQ
+videoLink: ''
 
 ---
 Quis exercitation officia ad irure in. Nostrud nisi voluptate cupidatat aliqua mollit veniam velit consequat pariatur velit et. Duis sunt consequat ad esse veniam sint qui id dolore in exercitation.
