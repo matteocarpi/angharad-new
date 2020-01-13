@@ -1,15 +1,15 @@
 ---
 date: 2019-11-06T13:47:07.000+00:00
-title: Awesome Giraffe
+title: Mission Control
 gallery:
-- "/uploads/swapnil-dwivedi-N2IJ31xZ_ks-unsplash-1.jpg"
 - "/uploads/PROEGELHOEF.jpg"
+- "/uploads/swapnil-dwivedi-N2IJ31xZ_ks-unsplash-1.jpg"
 - "/uploads/swapnil-dwivedi-N2IJ31xZ_ks-unsplash.jpg"
 - "/uploads/simon-matzinger-Gpck1WkgxIk-unsplash.jpg"
 categories:
-  performance: true
+  performance: false
   design: true
-  theatre_making: true
+  theatre_making: false
 current_work: true
 
 ---
