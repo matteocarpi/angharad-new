@@ -13,8 +13,23 @@ categories:
 current_work: true
 
 ---
-Quis exercitation officia ad irure in. Nostrud nisi voluptate cupidatat aliqua mollit veniam velit consequat pariatur velit et. Duis sunt consequat ad esse veniam sint qui id dolore in exercitation.
+**Hijinx Unity Festival & National Theatre Wales**
 
-Sint aliquip tempor sint nostrud reprehenderit consequat ut mollit ea esse proident. Irure duis do eu irure sunt velit adipisicing consequat velit ad non eiusmod. Est exercitation ut mollit voluptate. Nulla est ad nisi adipisicing ex sit labore ullamco adipisicing ullamco eiusmod ipsum. Laboris ad ipsum est Lorem sunt elit laboris occaecat culpa ad ex velit ex minim. Id velit proident aliqua veniam voluptate ea voluptate esse culpa aute sunt ipsum fugiat.
+**Directed by Ben Pettitt-Wade and Kully Thiarai**  
+**Created with Seiriol Davies**
 
-Ad eiusmod velit quis occaecat labore nisi consectetur do. Officia nisi consequat cillum Lorem nostrud irure ullamco mollit nisi nostrud eu pariatur. Consectetur commodo exercitation est voluptate cillum anim sunt dolor tempor deserunt sint mollit veniam eu. Consectetur consectetur esse velit excepteur fugiat commodo exercitation in. Dolor ea duis id cillum nulla et amet amet sunt pariatur sit commodo. Id nulla nulla velit consectetur incididunt labore eiusmod voluptate deserunt nostrud deserunt veniam.
+A short message from Monolith, your favourite Megacorporation:
+
+It’s been one hell of a year. Society is polarised, we are overpopulated, battered by extreme weather and as for democracy – well, it was nice while it lasted. Welcome to 2029.
+
+But wait, there is hope! Look up, see the new planet in our solar system. Humanity has a second chance.
+
+As leaders in, well, everything, Monolith has secured the exclusive rights to colonise the planet. Any day now our shuttles will launch from the Monolith National Crisis Centre.
+
+And you can join us. Together #WeAreMonolith
+
+Created by Hijinx Unity Festival & National Theatre Wales and performed in the iconic Principality Stadium, Cardiff, Mission Control is an immersive show like no other, that will feature an inclusive cast of over 80 performers, including Hijinx Actors.
+
+**Featuring loud noise, haze and sudden blackouts.  
+Closed Captioning, Audio Description and BSL is available at all performances  
+Age guidance: 14+**
