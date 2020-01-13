@@ -1,19 +1,26 @@
 ---
 date: 2019-07-06T13:47:07.000+00:00
-title: My Dreams
+title: Before I Leave
 gallery:
 - "/uploads/swapnil-dwivedi-N2IJ31xZ_ks-unsplash.jpg"
 - "/uploads/PROEGELHOEF.jpg"
 - "/uploads/swapnil-dwivedi-N2IJ31xZ_ks-unsplash-1.jpg"
 - "/uploads/simon-matzinger-Gpck1WkgxIk-unsplash.jpg"
 categories:
-  performance: true
+  performance: false
   design: true
-  theatre_making: true
-current_work: true
+  theatre_making: false
+current_work: false
+
 ---
-Quis exercitation officia ad irure in. Nostrud nisi voluptate cupidatat aliqua mollit veniam velit consequat pariatur velit et. Duis sunt consequat ad esse veniam sint qui id dolore in exercitation.
+_Before I leave I’ll give you some happiness_
 
-Sint aliquip tempor sint nostrud reprehenderit consequat ut mollit ea esse proident. Irure duis do eu irure sunt velit adipisicing consequat velit ad non eiusmod. Est exercitation ut mollit voluptate. Nulla est ad nisi adipisicing ex sit labore ullamco adipisicing ullamco eiusmod ipsum. Laboris ad ipsum est Lorem sunt elit laboris occaecat culpa ad ex velit ex minim. Id velit proident aliqua veniam voluptate ea voluptate esse culpa aute sunt ipsum fugiat.
+_The laughter and pain, the good that remains_
 
-Ad eiusmod velit quis occaecat labore nisi consectetur do. Officia nisi consequat cillum Lorem nostrud irure ullamco mollit nisi nostrud eu pariatur. Consectetur commodo exercitation est voluptate cillum anim sunt dolor tempor deserunt sint mollit veniam eu. Consectetur consectetur esse velit excepteur fugiat commodo exercitation in. Dolor ea duis id cillum nulla et amet amet sunt pariatur sit commodo. Id nulla nulla velit consectetur incididunt labore eiusmod voluptate deserunt nostrud deserunt veniam.
+_Hold me tighter still, keep me safe until_
+
+_Hold me close, before I leave_
+
+In Merthyr, people who are losing themselves find each other in a choir for individuals living with dementia and Alzheimer’s.
+
+A funny, moving and ultimately uplifting production featuring covers of well-known songs by artists ranging from Tom Jones to the Sex Pistols, plus a new song by Nicky Wire and James Dean Bradfield of Manic Street Preachers.
