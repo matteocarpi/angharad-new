@@ -1,16 +1,15 @@
 ---
-date: 2019-07-06T13:47:07.000+00:00
+date: 2016-05-31T22:00:00Z
 title: Before I Leave
 gallery:
-- "/uploads/swapnil-dwivedi-N2IJ31xZ_ks-unsplash.jpg"
-- "/uploads/PROEGELHOEF.jpg"
-- "/uploads/swapnil-dwivedi-N2IJ31xZ_ks-unsplash-1.jpg"
-- "/uploads/simon-matzinger-Gpck1WkgxIk-unsplash.jpg"
+- "/uploads/016-NTW-Before_I-Leave-Farrows-Creative.jpg"
+- "/uploads/009-NTW-Before_I-Leave-Farrows-Creative.jpg"
 categories:
   performance: false
   design: true
   theatre_making: false
 current_work: false
+video: true
 
 ---
 _Before I leave I’ll give you some happiness_
