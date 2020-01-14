@@ -54,6 +54,7 @@ fields:
   label: Gallery
 pages:
 - content/projects/150.md
+- content/projects/maite.md
 - content/projects/mission-control.md
 - content/projects/persephone-dancing-with-the-shadows.md
 - content/projects/profundis.md
