@@ -22,11 +22,11 @@ video: true
 
 When someone kills, when their crime is so terrible, so incomprehensible, can we still call them human? Who is to blame? Who and what creates monsters?
 
-Taking Mary Shelley’s Frankenstein as inspiration, **THE CREATURE** takes place in the mind and the prison cell of a young boy in a secure unit, as he attempts to avoid taking responsibility for what he has done, but also tries to understand it.
+Taking Mary Shelley’s Frankenstein as inspiration, THE CREATURE takes place in the mind and the prison cell of a young boy in a secure unit, as he attempts to avoid taking responsibility for what he has done, but also tries to understand it.
 
-Following last years acclaimed production of THE WOLF TATTOO by Lucy Gough, **COMPANY OF SIRENS** present a specially commissioned play from the same award winning author that explores the origins of criminal behaviour and asks what it is that makes us monsters.
+Following last years acclaimed production of THE WOLF TATTOO by Lucy Gough, COMPANY OF SIRENS present a specially commissioned play from the same award winning author that explores the origins of criminal behaviour and asks what it is that makes us monsters.
 
-Developed through work with young offenders in prisons and secure units. **THE CREATURE** is a powerful new play dealing with an issue central to our lives.
+Developed through work with young offenders in prisons and secure units. 'The Creature' is a powerful new play dealing with an issue central to our lives.
 
 Tue 1 - Sat 5 , Tue 8 - Thu 10 October 2019  
 Seligman Theatre
