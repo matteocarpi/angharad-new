@@ -25,6 +25,8 @@ Meanwhile a woman in white with an empty cage walks endlessly through the genera
 
 And underneath everything the sea, ebbing and flowing. The tide rising and falling. What will pass down the generations and what can be washed away as the waters rise?
 
+_Ulua(k) Teatro presents “Maite” (working title), a work-in-progress piece which brings together full expressive masks, object manipulation and original music in a darkly fantastical, moving and comical journey through the generations, through the ebb and flow of one family._
+
 **Core Devising and Performance Team:**
 
 Amelie Seib, Cat Gerrard, Heleen Klooker, Nerea Ariznabarreta
