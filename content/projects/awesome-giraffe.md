@@ -49,9 +49,9 @@ Seligman Theatre
 
 **Lighting** - Dan Young
 
-**Costume/Set Design** - Angharad Matthews 
+**Costume/Set Design** - Angharad Matthews
 
-**Cast** - Matt, Jarrad Ellis, Jams Thomas, Angharad Matthews
+**Cast** - Matthew Reed, Jarrad Ellis, Jams Thomas, Angharad Matthews
 
 **REVIEWS**
 
