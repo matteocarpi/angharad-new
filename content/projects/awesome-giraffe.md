@@ -51,7 +51,7 @@ Seligman Theatre
 
 **Costume/Set Design** - Angharad Matthews
 
-**Cast** - Matthew Reed, Jarrad Ellis, Jams Thomas, Angharad Matthews
+**Cast** - Matthew Reed, Jarrad Ellis Thomas, Jams Thomas, Angharad Matthews
 
 **REVIEWS**
 
