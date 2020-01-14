@@ -6,7 +6,7 @@ categories:
 date: 2019-06-06T22:00:00Z
 title: Sacre
 current_work: false
-video: true
+video: false
 videoLink: ''
 gallery:
 - "/uploads/download.jpg"
