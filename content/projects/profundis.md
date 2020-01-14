@@ -13,9 +13,7 @@ gallery: []
 ---
 # PROFUNDIS
 
-## Playful, vibrant and provocative
-
-NDCW
+### NDCW
 
 Playful, vibrant and provocative. Profundis dares us to ask questions about what things are, and what they are not. Roy Assaf's thoughtful movement is accompanied by whimsical wordplay and an exotic soundtrack featuring Egypt's Umm Kulthum.
 
