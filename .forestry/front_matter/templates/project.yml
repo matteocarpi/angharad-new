@@ -53,4 +53,5 @@ fields:
   config: {}
   label: Gallery
 pages:
+- content/projects/150.md
 - content/projects/mission-control.md
