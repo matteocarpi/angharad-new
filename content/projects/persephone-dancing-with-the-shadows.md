@@ -8,7 +8,13 @@ title: Persephone - Dancing with the Shadows
 current_work: true
 video: false
 videoLink: ''
-gallery: []
+gallery:
+- "/uploads/persephone-gallery-2.jpg"
+- "/uploads/persephone-gallery-1.jpg"
+- "/uploads/DSC06902.jpg"
+- "/uploads/DSC06753.jpg"
+- "/uploads/DSC06739.jpg"
+- "/uploads/DSC06728.jpg"
 
 ---
 # **Persephone - Dancing with the Shadows**
