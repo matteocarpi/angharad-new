@@ -8,6 +8,10 @@ title: The Audition
 current_work: false
 video: false
 videoLink: ''
-gallery: []
+gallery:
+- "/uploads/C5D_4560.jpg"
+- "/uploads/C5D_4550.jpg"
+- "/uploads/C5D_4548.jpg"
+- "/uploads/C5D_4535.jpg"
 
 ---
