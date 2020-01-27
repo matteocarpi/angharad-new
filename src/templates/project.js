@@ -26,7 +26,7 @@ const Project = ({ data }) => {
           >
             <FaChevronLeft className={styles.navIcon} onClick={() => setSelectedImage(selectedImage - 1)}/>
 
-            <Img className={styles.image} fluid={images[selectedImage].childImageSharp.fluid}/>
+            <Img className={styles.image} fluid={images[selectedImage] && images[selectedImage].childImageSharp.fluid}/>
           
             <FaChevronRight
               className={styles.navIcon}
