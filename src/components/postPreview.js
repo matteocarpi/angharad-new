@@ -15,7 +15,7 @@ const PostPreview = (props) => {
           }} 
           
         /> */}
-        <Img fluid={props.image} className={styles.image}/>
+        {props.image && <Img fluid={props.image} className={styles.image}/>}
         {/* <img alt={props.image} src={props.image}/> */}
         <Link className={styles.title} to={props.slug}>
           <h3>{props.title}</h3>
