@@ -3,7 +3,7 @@ categories:
   performance: false
   design: true
   theatre_making: false
-date: 2015-08-01T20:34:19Z
+date: 2015-09-12T20:34:19Z
 title: Homo Irrationalis
 current_work: false
 video: false
