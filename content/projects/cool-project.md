@@ -35,7 +35,7 @@ Written, conceived, directed and performed by Chris Durnall with Angharad Matthe
 
 **Tuesday 11th June at 8.30 and Wednesday 12th June at 6.30 and 8.00**
 
-**Chapter Theatre. Box Office Market Road, CantonCardiff, WalesUKCF5 1QEt: +44 (0)29 2030 4400**
+**Chapter Theatre, Market Road, Canton Cardiff, Wales** 
 
 **Creative Team**
 
