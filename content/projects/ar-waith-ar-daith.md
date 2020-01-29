@@ -1,7 +1,7 @@
 ---
 categories:
   performance: true
-  design: false
+  design: true
   theatre_making: false
 date: 2015-08-01T20:06:05Z
 title: Ar Waith Ar Daith
