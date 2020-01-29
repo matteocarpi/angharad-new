@@ -54,6 +54,7 @@ fields:
   label: Gallery
 pages:
 - content/projects/150.md
+- content/projects/ar-waith-ar-daith.md
 - content/projects/maite.md
 - content/projects/margaret-and-the-tapeworm.md
 - content/projects/mission-control.md
