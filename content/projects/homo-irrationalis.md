@@ -8,7 +8,8 @@ title: Homo Irrationalis
 current_work: false
 video: false
 videoLink: ''
-gallery: []
+gallery:
+- "/uploads/12002420_10153247831407901_4038965254823701550_o.jpg"
 
 ---
 HOMO IRRATIONALIS 
