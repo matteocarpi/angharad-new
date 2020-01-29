@@ -1,5 +1,5 @@
 ---
-date: 2019-06-10T22:00:00Z
+date: 2019-06-10T22:00:00.000+00:00
 title: 'Twelve Cabins Twelve Vacancies '
 gallery:
 - "/uploads/68932029_10162558339770647_5492534826734977024_n.jpg"
@@ -36,3 +36,13 @@ Written, conceived, directed and performed by Chris Durnall with Angharad Matthe
 **Tuesday 11th June at 8.30 and Wednesday 12th June at 6.30 and 8.00**
 
 **Chapter Theatre. Box Office Market Road, CantonCardiff, WalesUKCF5 1QEt: +44 (0)29 2030 4400**
+
+**Creative Team**
+
+**Writer** - Chris Durnall
+
+**Devised and Performed by -** Chris Durnall and Angharad Matthews
+
+**Lighting** - Dan Young
+
+**Costume/Set Design** - Angharad Matthews
