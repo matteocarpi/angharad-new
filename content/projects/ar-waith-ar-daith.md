@@ -8,6 +8,9 @@ title: Ar Waith Ar Daith
 current_work: false
 video: false
 videoLink: ''
-gallery: []
+gallery:
+- "/uploads/JS71765927.jpg"
+- "/uploads/JS71765920.jpg"
+- "/uploads/JS71765917.jpg"
 
 ---
