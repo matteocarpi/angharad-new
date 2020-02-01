@@ -17,7 +17,7 @@ categories:
   design: true
   theatre_making: true
 current_work: false
-video: true
+video: false
 videoLink: ''
 
 ---
