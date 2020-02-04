@@ -17,3 +17,18 @@ gallery:
 - "/uploads/13450848_1615318148778762_2477649150576003237_n.jpg"
 
 ---
+**SHADOW OF A QUIET SOCIETY**
+
+_Shadow of a Quiet Society_ follows on from the success of Gwyn Emberton Dance’s award winning dance theatre production _My People_.
+
+Inspired by the stories and people from Emberton’s hometown of Montgomery, _Shadow of a Quiet Society_ explores what happens when the people of a small community all have big ideas about who they are.
+
+An all-female cast of internationally renowned dancers, including Eddie Ladd, portray a host of archetypal characters that fight to fit into a world that's not really for them. Together with Emberton’s distinct choreographic style and sense of theatre make this is a “visually exquisite” work.
+
+“_Fascinating to behold throughout … superb and captivating piece of work … Quite a standard-setter for … Welsh dance_”
+
+\- Wales Arts Review
+
+“_A choreographer who is able to excite and stimulate but also entertain with flowing, aesthetically pleasing dance_”
+
+\- Arts Scene in Wales
