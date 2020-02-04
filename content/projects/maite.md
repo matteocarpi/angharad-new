@@ -3,7 +3,7 @@ categories:
   performance: false
   design: true
   theatre_making: false
-date: 2020-01-14T17:19:06Z
+date: 2020-01-14T17:19:06.000+00:00
 title: Maite
 current_work: true
 video: false
@@ -37,7 +37,3 @@ Amelie Seib, Cat Gerrard, Heleen Klooker, Nerea Ariznabarreta
 **Composer and Musician:** Mariano Hurtado Bravo
 
 **Costume Designer:** Angharad Matthews
-
-**Mentors:**
-
-Maider Illana– Managing Director, Arropaineko Arragua; Amaia Gabilondo – Managing Director, Garaion Sorgingunea; Alessio Negro – Set Designer, Clown
