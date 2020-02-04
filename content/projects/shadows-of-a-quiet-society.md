@@ -3,11 +3,17 @@ categories:
   performance: false
   design: true
   theatre_making: false
-date: 2016-10-31T23:00:00Z
+date: 2016-10-31T23:00:00.000+00:00
 title: Shadows of a quiet society
 current_work: false
 video: false
 videoLink: ''
-gallery: []
+gallery:
+- "/uploads/13407238_1615318122112098_2834449224360579866_n.jpg"
+- "/uploads/13445616_1615318115445432_4426442572861240721_n.jpg"
+- "/uploads/13432142_1615318125445431_9179340241367880944_n.jpg"
+- "/uploads/13406997_1615318185445425_7535731177915725012_n.jpg"
+- "/uploads/13403941_1615318172112093_7075280042491543926_o.jpg"
+- "/uploads/13450848_1615318148778762_2477649150576003237_n.jpg"
 
 ---
