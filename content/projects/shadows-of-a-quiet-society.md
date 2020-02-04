@@ -6,8 +6,8 @@ categories:
 date: 2016-10-31T23:00:00.000+00:00
 title: Shadows of a quiet society
 current_work: false
-video: false
-videoLink: ''
+video: true
+videoLink: https://www.youtube.com/watch?v=waYKJQ7ijw8&feature=emb_logo
 gallery:
 - "/uploads/13407238_1615318122112098_2834449224360579866_n.jpg"
 - "/uploads/13445616_1615318115445432_4426442572861240721_n.jpg"
