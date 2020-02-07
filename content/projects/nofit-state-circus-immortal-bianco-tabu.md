@@ -13,4 +13,6 @@ gallery:
 - "/uploads/nofitstate.jpg"
 
 ---
-## **Bianco - NofitState Circus**
+# **BIANCO**
+
+### **NOFIT STATE CIRCUS**
