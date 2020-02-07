@@ -3,12 +3,13 @@ categories:
   performance: false
   design: true
   theatre_making: false
-date: 2018-02-05T14:12:13Z
+date: 2018-02-05T14:12:13.000+00:00
 title: Tundra
 current_work: false
 video: true
-videoLink: https://www.youtube.com/watch?time_continue=22&v=ff0Vw6QkdZs
+videoLink: https://www.youtube.com/watch?v=NIMiYyZNU00
 gallery:
+- "/uploads/Tundra 2.jpg"
 - "/uploads/Untitled design (43).png"
 - "/uploads/https---cdn.images.express.co.uk-img-dynamic-38-750x445-956012.jpg"
 - "/uploads/http---www.tanz.at-images-Tanztage.jpg"
