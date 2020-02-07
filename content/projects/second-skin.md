@@ -9,6 +9,7 @@ current_work: false
 video: false
 videoLink: ''
 gallery:
+- "/uploads/second skin pdf pics WO-1.pdf"
 - "/uploads/second skin pdf pics WO.pdf"
 - "/uploads/IMG_2464.jpg"
 - "/uploads/621384_289426827833535_1049461313_o.jpg"
