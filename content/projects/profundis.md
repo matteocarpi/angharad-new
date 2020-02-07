@@ -3,12 +3,13 @@ categories:
   performance: false
   design: true
   theatre_making: false
-date: 2016-11-30T23:00:00Z
+date: 2016-11-30T23:00:00.000+00:00
 title: Profundis
 current_work: false
 video: true
 videoLink: https://www.youtube.com/watch?v=WK6kHnthAmw&feature=emb_logo
-gallery: []
+gallery:
+- "/uploads/14947390_1183191158385546_2087861794815999274_n.jpg"
 
 ---
 # PROFUNDIS
