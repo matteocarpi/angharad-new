@@ -1,12 +1,12 @@
 ---
-date: 2016-05-31T22:00:00Z
+date: 2016-05-31T22:00:00.000+00:00
 title: Before I Leave
 gallery:
+- "/uploads/062-NTW-Before_I-Leave-Farrows-Creative.jpg"
 - "/uploads/003-NTW-Before_I-Leave-Farrows-Creative.jpg"
 - "/uploads/016-NTW-Before_I-Leave-Farrows-Creative.jpg"
 - "/uploads/013-NTW-Before_I-Leave-Farrows-Creative.jpg"
 - "/uploads/021-NTW-Before_I-Leave-Farrows-Creative.jpg"
-- "/uploads/062-NTW-Before_I-Leave-Farrows-Creative.jpg"
 - "/uploads/009-NTW-Before_I-Leave-Farrows-Creative.jpg"
 - "/uploads/224-NTW-Before_I-Leave-Farrows-Creative.jpg"
 categories:
