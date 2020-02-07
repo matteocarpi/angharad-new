@@ -4,7 +4,7 @@ categories:
   design: true
   theatre_making: false
 date: 2018-02-05T14:12:13.000+00:00
-title: Tundra
+title: Tundra - NDCW
 current_work: false
 video: true
 videoLink: https://www.youtube.com/watch?v=NIMiYyZNU00
@@ -16,10 +16,6 @@ gallery:
 - "/uploads/http---1ifb2b1i0hus3prhdk22kden.wpengine.netdna-cdn.com-wp-content-uploads-2017-12-maxresdefault-5.jpg"
 
 ---
-# **TUNDRA**
-
-### NDCW
-
 Nominee at the UK Theatre Awards 2018 (Best Achievement in Dance).
 
 Best Dance Wales Theatre Awards 2017.
