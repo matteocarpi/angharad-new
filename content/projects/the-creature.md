@@ -1,6 +1,6 @@
 ---
-date: 2019-09-30T22:00:00Z
-title: The Creature
+date: 2019-09-30T22:00:00.000+00:00
+title: The Creature - Company of Sirens
 gallery:
 - "/uploads/68443003_2672107736205216_904014135325360128_o.jpg"
 - "/uploads/image-2.jpg"
@@ -25,10 +25,6 @@ video: false
 videoLink: ''
 
 ---
-# THE CREATURE
-
-### COMPANY OF SIRENS
-
 ‘Misery has made me a fiend’
 
 When someone kills, when their crime is so terrible, so incomprehensible, can we still call them human? Who is to blame? Who and what creates monsters?
