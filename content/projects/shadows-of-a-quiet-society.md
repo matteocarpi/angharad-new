@@ -4,7 +4,7 @@ categories:
   design: true
   theatre_making: false
 date: 2016-10-31T23:00:00.000+00:00
-title: Shadows of a quiet society
+title: Shadows of a quiet society - Gwyn Emberton Dance
 current_work: false
 video: true
 videoLink: https://www.youtube.com/watch?v=waYKJQ7ijw8&feature=emb_logo
@@ -17,8 +17,6 @@ gallery:
 - "/uploads/13450848_1615318148778762_2477649150576003237_n.jpg"
 
 ---
-**SHADOW OF A QUIET SOCIETY**
-
 _Shadow of a Quiet Society_ follows on from the success of Gwyn Emberton Dance’s award winning dance theatre production _My People_.
 
 Inspired by the stories and people from Emberton’s hometown of Montgomery, _Shadow of a Quiet Society_ explores what happens when the people of a small community all have big ideas about who they are.
