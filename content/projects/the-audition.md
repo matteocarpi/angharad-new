@@ -3,8 +3,8 @@ categories:
   performance: false
   design: true
   theatre_making: true
-date: 2016-01-31T23:00:00Z
-title: The Audition
+date: 2016-01-31T23:00:00.000+00:00
+title: The Audition - NCDT
 current_work: false
 video: true
 videoLink: ''
@@ -25,6 +25,3 @@ gallery:
 - "/uploads/C5D_4548.jpg"
 
 ---
-# THE AUDITION
-
-### NCDT
