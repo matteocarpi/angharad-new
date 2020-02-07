@@ -9,8 +9,8 @@ current_work: false
 video: true
 videoLink: ''
 gallery:
-- "/uploads/C5D_4560-1.jpg"
 - "/uploads/C5D_4586.jpg"
+- "/uploads/C5D_4560-1.jpg"
 - "/uploads/C5D_4583.jpg"
 - "/uploads/C5D_4579.jpg"
 - "/uploads/C5D_4572.jpg"
