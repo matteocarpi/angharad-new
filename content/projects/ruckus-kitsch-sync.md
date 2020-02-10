@@ -3,7 +3,7 @@ categories:
   performance: true
   design: false
   theatre_making: false
-date: 2020-02-10T21:08:07Z
+date: 2014-03-01T21:08:07Z
 title: Ruckus - Kitsch & Sync
 current_work: false
 video: false
