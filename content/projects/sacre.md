@@ -9,9 +9,9 @@ current_work: false
 video: false
 videoLink: ''
 gallery:
+- "/uploads/36808007866.jpg"
 - "/uploads/http---en.opera.se-media-flickr-36187182733.jpg"
 - "/uploads/36187162093.jpg"
-- "/uploads/36808007866.jpg"
 - "/uploads/36824305012_jpg_1000x1000_q85.jpg"
 - "/uploads/download.jpg"
 - "/uploads/61614304_1781625531939765_6359201232124379136_o.jpg"
