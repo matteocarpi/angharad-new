@@ -4,24 +4,20 @@ categories:
   design: true
   theatre_making: false
 date: 2020-01-14T17:19:06.000+00:00
-title: Maite
+title: Maite - Uluak Teatro
 current_work: true
 video: false
 videoLink: ''
 gallery:
-- "/uploads/3 MaitesPOSTCARD6.jpg"
 - "/uploads/family_picture_retroque.jpg"
 - "/uploads/6f3d37a9-d02b-479a-ad2c-d0e5864b340b.POSTCARD5jpg.jpg"
+- "/uploads/3 MaitesPOSTCARD6.jpg"
 - "/uploads/67623532_1130012347195801_1403739571694338048_o.jpg"
 - "/uploads/82337278_2761519330553536_5026661699822813184_o.jpg"
 - "/uploads/80759218_2761519290553540_6938870174674059264_o.jpg"
 - "/uploads/Granny MaiteMemory2.jpg"
 
 ---
-# MAITE
-
-### **ULUAK TEATRO**
-
 Maite and her sisters, Paula and Nora, have gone through changes, as all families have. They’ve weathered storms, at moments they’ve drifted apart but somehow they’ve held together.
 
 But when their mother, Margaret, makes the drastic decision to sell the family home, something cracks open. Ghosts and memories start to seep out and the family is confronted with things they did not expect: some hidden, some lost and some purposefully forgotten. The waters start to rise.
