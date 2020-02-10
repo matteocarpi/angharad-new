@@ -1,6 +1,6 @@
 ---
 date: 2016-05-31T22:00:00.000+00:00
-title: Before I Leave
+title: Before I Leave - National Theatre Wales
 gallery:
 - "/uploads/062-NTW-Before_I-Leave-Farrows-Creative.jpg"
 - "/uploads/003-NTW-Before_I-Leave-Farrows-Creative.jpg"
@@ -17,10 +17,6 @@ current_work: false
 video: true
 
 ---
-# **BEFORE I LEAVE**
-
-### NTW
-
 _Before I leave I’ll give you some happiness_
 
 _The laughter and pain, the good that remains_
