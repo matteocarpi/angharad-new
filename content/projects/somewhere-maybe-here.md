@@ -33,7 +33,6 @@ Created by: Cat Gerrard, Nerea Ariznabarreta, Hugo Reis (Film Artist), Angharad 
 **INFORMATION**  
 Sunday 3rd March 2019 19h  
 Monday 4th March 2019 20h  
-Tickets: Pay What You Feel, between 8€ and 12€  
 Performance duration: 50 mins
 
 **CONTACT**  
