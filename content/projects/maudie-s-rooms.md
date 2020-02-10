@@ -9,7 +9,15 @@ current_work: false
 video: false
 videoLink: ''
 gallery:
+- "/uploads/Maudies page 7.png"
+- "/uploads/Maudies page 4.png"
 - "/uploads/Maudies page 3.png"
+- "/uploads/Maudies page 5.png"
+- "/uploads/Maudies page 12-1.png"
+- "/uploads/Maudies page 1.png"
+- "/uploads/Maudies page 2.png"
+- "/uploads/Maudies page 11.png"
+- "/uploads/Maudies page 10.png"
 
 ---
 Set inside a splendid, fading old Custom's House in Cardiff Bay, Maudie's Rooms was a sumptuous promenade theatre adventure.  
