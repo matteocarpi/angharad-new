@@ -3,8 +3,8 @@ categories:
   performance: true
   design: true
   theatre_making: false
-date: 2015-08-01T20:06:05Z
-title: Ar Waith Ar Daith
+date: 2015-08-01T20:06:05.000+00:00
+title: Ar Waith Ar Daith - Walk the Plank
 current_work: false
 video: false
 videoLink: ''
