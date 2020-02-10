@@ -23,3 +23,9 @@ As this trio collides we discover that, person or parasite, no-one wants to be a
 Triongl is a company of 3 women dedicated to producing original theatre with humour and social relevance.
 
 Triongl are associate artists on the Peilot Programme at Chapter Arts Centre, Cardiff.
+
+**Director** - Sean Tuan John
+
+**Cast** - Rebecca Smith Williams, Rebecca Knowles, Val Mai Jones
+
+**Set and Costume Design** - Angharad Matthews
