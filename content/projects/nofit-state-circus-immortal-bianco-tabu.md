@@ -13,6 +13,3 @@ gallery:
 - "/uploads/nofitstate.jpg"
 
 ---
-# **BIANCO**
-
-### **NOFIT STATE CIRCUS**
