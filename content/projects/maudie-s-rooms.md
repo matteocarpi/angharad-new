@@ -3,7 +3,7 @@ categories:
   performance: true
   design: false
   theatre_making: false
-date: 2020-02-07T18:28:49.000+00:00
+date: 2014-07-26T17:28:49Z
 title: Maudie's Rooms - The Roar Ensemble
 current_work: false
 video: false
@@ -20,11 +20,11 @@ gallery:
 - "/uploads/Maudies page 10.png"
 
 ---
-Set inside a splendid, fading old Custom's House in Cardiff Bay, Maudie's Rooms was a sumptuous promenade theatre adventure.  
-The audience first encountered poor Arlo Butterworth at a Bus Stop. Having run away from his own wedding, and in a terrible panic, he had hopped onto the nearest bus, only to find himself completely lost. Then, right out of the blue, a mysterious message is delivered to him summonsing him back to the magical old boarding house of his childhood.  
-Joining Arlo on his perilous journey, the audience were led back into his childhood memories, journeying through rooms full of secrets, riddles and mysteries. As he once again encountered the extraordinary lodgers in their magical inside-out environments, together they helped him to confront the lessons from his past – and face up to his fears.  
-Slightly scary and very, very thrilling.....  
-Maudie's Rooms was in co.production with Sherman Cymru, and received funding from the Arts Council of Wales.
+Set inside a splendid, fading old Custom's House in Cardiff Bay, Maudie's Rooms is a sumptuously visual, promenade adventure for family audiences, with inside-out magical environments, scents, sounds, unsolved mysteries and a cracking story.
+
+Professor Arlo Butterworth is in a dreadful pickle. Having abandoned poor Harriet at the altar, he now finds himself completely lost! Now, right out of the blue, he has received a mysterious message summonsing him back to the old seaside boarding house of his childhood. Join Arlo on his perilous journey, as he once again encounters the extraordinary Lodgers in Maudie's rooms - and remembers the lessons from his past.
+
+26 - 27 July 
 
 **Written and Directed** by Louise Osborn  
 The Roar Ensemble in co. production with Sherman Cymru
