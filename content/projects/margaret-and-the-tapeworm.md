@@ -13,3 +13,10 @@ gallery:
 - "/uploads/DsrjstGWkAE6Pdr.jpg"
 
 ---
+An uninvited guest lurking at the office buffet brings surprising consequences for love-lorn Margaret and determinedly festive Amber.
+
+As this trio collides we discover that, person or parasite, no-one wants to be alone at Christmas.
+
+Triongl is a company of 3 women dedicated to producing original theatre with humour and social relevance.
+
+Triongl are associate artists on the Peilot Programme at Chapter Arts Centre, Cardiff.
