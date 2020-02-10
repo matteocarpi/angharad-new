@@ -24,6 +24,10 @@ Triongl is a company of 3 women dedicated to producing original theatre with hum
 
 Triongl are associate artists on the Peilot Programme at Chapter Arts Centre, Cardiff.
 
+Chapter Arts Centre, Cardiff
+
+19th-22nd December 2018
+
 **Director** - Sean Tuan John
 
 **Cast** - Rebecca Smith Williams, Rebecca Knowles, Val Mai Jones
