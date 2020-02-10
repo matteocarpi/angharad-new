@@ -3,8 +3,8 @@ categories:
   performance: false
   design: true
   theatre_making: false
-date: 2019-06-06T22:00:00Z
-title: Sacre
+date: 2019-06-06T22:00:00.000+00:00
+title: Sacre - Roy Assaf - Göteborgs Opera
 current_work: false
 video: false
 videoLink: ''
@@ -20,10 +20,6 @@ gallery:
 - "/uploads/61599014_1781625561939762_2680367009283178496_o.jpg"
 
 ---
-# **SACRE**
-
-### ROY ASSAF - Göteborgs Opera
-
 Multi-award winning Israeli choreographer Roy Assaf is well-known for his gender perspective on dance. His raving _Sacre_ – performed to Stravinsky’s explosive The Rite of Spring – is performed by an all-female and all-male cast; 2 x Rite of Spring! It seduces, entertains and eludes, ending in an surprising sacrifice. With the Göteborgs Opera Orchestra performing Stravinsky's music live on stage.
 
 To view trailer please click link below:
