@@ -9,8 +9,11 @@ current_work: false
 video: false
 videoLink: ''
 gallery:
-- "/uploads/739002518_640.jpg"
+- "/uploads/Margaret_and_the_Tapeworm_400_large.jpg"
+- "/uploads/download-1.jpg"
 - "/uploads/DsrjstGWkAE6Pdr.jpg"
+- "/uploads/MargaretTapeWorm2.jpg"
+- "/uploads/739002518_640.jpg"
 
 ---
 An uninvited guest lurking at the office buffet brings surprising consequences for love-lorn Margaret and determinedly festive Amber.
