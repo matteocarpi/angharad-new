@@ -4,7 +4,7 @@ categories:
   design: true
   theatre_making: false
 date: 2015-09-12T20:34:19.000+00:00
-title: Homo Irrationalis
+title: Homo Irrationalis - Karol Cysewski
 current_work: false
 video: false
 videoLink: ''
