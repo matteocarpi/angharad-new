@@ -25,3 +25,11 @@ gallery:
 - "/uploads/C5D_4548.jpg"
 
 ---
+
+Creative Team
+
+Concept, Choreography, Direction - Angharad Matthews
+
+Music - Tick Ashfield
+
+Performers - Katie, Tamsin, Sara, Rachel, Eloise Nancy Gwyn, Gemma Prangle
