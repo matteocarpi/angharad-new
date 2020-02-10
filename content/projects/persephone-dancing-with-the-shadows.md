@@ -23,8 +23,6 @@ On stage there are five rectangular wooden frames. Covered in cloth they show sh
 
 After sharing the 20-minute piece with an audience in India, Berta del Ben, Matteo Carpi, Ainhoa Hevia Uria, Niall Fallon, Angharad Matthews and Julia Vandehof are currently devising a full-length version of the Performance. The Premiere will be in Spring 2020.
 
-**Creative Team**
-
 **Created and performed** by Berta del Ben, Niall Fallon, Ainhoa Hevia Uria, Angharad Matthews, Julia Vandehof
 
 **Music and Video support by** Matteo Carpi
