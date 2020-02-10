@@ -15,9 +15,9 @@ gallery:
 current_work: false
 
 ---
-A short message from Monolith, your favourite Megacorporation:
+Welcome to 2029. A short message from Monolith, your favourite Megacorporation:
 
-It’s been one hell of a year. Society is polarised, we are overpopulated, battered by extreme weather and as for democracy – well, it was nice while it lasted. Welcome to 2029.
+It’s been one hell of a year. Society is polarised, we are overpopulated, battered by extreme weather and as for democracy – well, it was nice while it lasted. 
 
 But wait, there is hope! Look up, see the new planet in our solar system. Humanity has a second chance.
 
