@@ -14,3 +14,6 @@ gallery:
 - "/uploads/IMG_2253.jpg"
 
 ---
+Adain Avion was a mobile art space created from the fuselage of a DC-9 airplane, discovered and transformed by Spanish sculptor and designer Eduardo Cajal. We celebrated its twentieth anniversary by bringing Avion to Wales in the summer of 2012.
+
+Bodies in Urban spaces - Willi Dorner
