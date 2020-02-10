@@ -26,6 +26,8 @@ gallery:
 
 ---
 
+Research and development project
+
 Creative Team
 
 Concept, Choreography, Direction - Angharad Matthews
