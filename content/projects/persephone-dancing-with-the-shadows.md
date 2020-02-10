@@ -3,7 +3,7 @@ categories:
   performance: true
   design: false
   theatre_making: true
-date: 2020-01-14T16:11:32Z
+date: 2020-01-14T16:11:32.000+00:00
 title: Persephone - Dancing with the Shadows
 current_work: true
 video: false
@@ -17,10 +17,6 @@ gallery:
 - "/uploads/DSC06728.jpg"
 
 ---
-# **Persephone - Dancing with the Shadows**
-
-### JULIA VANDEHOF
-
 The performance is a descent into a world of shadows and phantoms and takes the Greek myth of Persephone as its core inspiration. The narrative alludes to the cyclical nature of life-death and to the idea of resurrection, questioning what it means to embrace _death-in-life._ The audience is invited into a world where they encounter non-linear storytelling, deeply atmospheric soundscapes and striking imagery shown through the grotesque nature of the ensemble and shadow play.
 
 On stage there are five rectangular wooden frames. Covered in cloth they show shadowed shapes, consequently acting as a backdrop to the projected media of ink in water. They are the stage set and stage partners whilst being objects. The boxes can be moved throughout the play creating images and sceneries. The performers move with, through and in them.
