@@ -1,5 +1,5 @@
 ---
-date: 2019-06-10T22:00:00.000+00:00
+date: 2020-02-29T23:00:00Z
 title: 'Twelve Cabins Twelve Vacancies '
 gallery:
 - "/uploads/68932029_10162558339770647_5492534826734977024_n.jpg"
