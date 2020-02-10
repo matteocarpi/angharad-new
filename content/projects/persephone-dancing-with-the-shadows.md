@@ -23,14 +23,14 @@ On stage there are five rectangular wooden frames. Covered in cloth they show sh
 
 After sharing the 20-minute piece with an audience in India, Berta del Ben, Matteo Carpi, Ainhoa Hevia Uria, Niall Fallon, Angharad Matthews and Julia Vandehof are currently devising a full-length version of the Performance. The Premiere will be in Spring 2020.
 
-**Created and performed** by Berta del Ben, Niall Fallon, Ainhoa Hevia Uria, Angharad Matthews, Julia Vandehof
-
-**Music and Video support by** Matteo Carpi
-
-**Directed by** Julia Vandehof
-
 **2018** ADA Studios 10 times 6 Festival Berlin
 
 **2018** English Theatre Expat Explore Festival Berlin
 
 **2019** Whilst Walking Theatre Touring Festival India (United Arts Foundation Bangalore, TIFA Pune, Castiko Space Mumbai, UP 80 Agra, Delhi , Padatik Kalkutta)
+
+**Directed by** Julia Vandehof
+
+**Created and performed** by Berta del Ben, Niall Fallon, Ainhoa Hevia Uria, Angharad Matthews, Julia Vandehof
+
+**Music and Video support by** Matteo Carpi
