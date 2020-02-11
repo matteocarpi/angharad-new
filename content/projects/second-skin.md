@@ -17,3 +17,16 @@ gallery:
 - "/uploads/266290_289426794500205_948277215_o.jpg"
 
 ---
+Second Skin is a performance installation project that began its R & D stage 1 at Chapter Arts Centre in August 2012. 
+
+Working with latex as the core material, the project is an exploration into the many skins we wear and shed and how these 'skins' inform and map the story our body is trying to tell.  
+
+The project undertakes a research process which unables the exploration of dance and movement within the context of design led performance art. It explores the relationship between costume, performer and environment to create a richly layered performance landscape. 
+
+Second Skin Exhibition phase 2 - showing at Art in the Warehouse at Milgis Cardiff opening 1st March 2013
+
+**Creation, Design, Performance** - Angharad Matthews
+
+**Photography** - Warren Orchard Photography
+
+**Film** - Simon Clode Films
