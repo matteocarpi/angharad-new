@@ -25,13 +25,12 @@ gallery:
 - "/uploads/C5D_4548.jpg"
 
 ---
-
 Research and development project
 
 Creative Team
 
 Concept, Choreography, Direction - Angharad Matthews
 
-Music - Tick Ashfield
+Music and Sound Design - Tick Ashfield
 
-Performers - Katie, Tamsin, Sara, Rachel, Eloise Nancy Gwyn, Gemma Prangle
+Performers - Katie, Tamsin, Sarah , Rachel, Eloise Nancy Gwyn, Gemma Prangle
