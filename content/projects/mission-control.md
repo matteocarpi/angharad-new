@@ -15,7 +15,7 @@ current_work: false
 ---
 Welcome to 2029. A short message from Monolith, your favourite Megacorporation:
 
-It’s been one hell of a year. Society is polarised, we are overpopulated, battered by extreme weather and as for democracy – well, it was nice while it lasted. 
+It’s been one hell of a year. Society is polarised, we are overpopulated, battered by extreme weather and as for democracy – well, it was nice while it lasted.
 
 But wait, there is hope! Look up, see the new planet in our solar system. Humanity has a second chance.
 
@@ -37,5 +37,3 @@ Principality Stadium, Cardiff, 22 - 24 November
 **Lighting Design** - Ceri Thomas
 
 **Sound Design** - Mike Beer
-
-**Cast** - 
