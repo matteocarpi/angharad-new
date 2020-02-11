@@ -3,7 +3,6 @@ date: 2019-09-30T22:00:00.000+00:00
 title: The Creature - Company of Sirens
 gallery:
 - "/uploads/image-1.jpg"
-- "/uploads/68443003_2672107736205216_904014135325360128_o.jpg"
 - "/uploads/image-2.jpg"
 - "/uploads/74664630_10157721149568245_4202248736014860288_o.jpg"
 - "/uploads/72479916_10157597772423245_7564179990921609216_o.jpg"
@@ -16,6 +15,7 @@ gallery:
 - "/uploads/76952859_10157761611133245_7255423545155518464_o.jpg"
 - "/uploads/75328831_10157710302838245_3134071875370483712_o.jpg"
 - "/uploads/image-3.jpg"
+- "/uploads/68443003_2672107736205216_904014135325360128_o.jpg"
 categories:
   performance: true
   design: true
@@ -37,8 +37,6 @@ Developed through work with young offenders in prisons and secure units. 'The Cr
 
 Tue 1 - Sat 5 , Tue 8 - Thu 10 October 2019  
 Seligman Theatre
-
-**Creative Team**
 
 **Writer** - Lucy Gough
 
