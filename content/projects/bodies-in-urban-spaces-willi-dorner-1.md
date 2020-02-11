@@ -18,3 +18,4 @@ gallery:
 - "/uploads/Adain-Avion_Bodies-in-Urban-Spaces-Swansea1-1600x900-1.jpg"
 
 ---
+Willi Dorner was commissioned by Marc Rees to produce Bodies in Urban Spaces in Wales, for Adain Avion, which also coincided with Swansea Dance Days, as part of Wales’ Cultural Olympiad Celebrations in June 2012.
