@@ -8,7 +8,14 @@ title: Tabu - NoFitState Circus
 current_work: false
 video: false
 videoLink: ''
-gallery: []
+gallery:
+- "/uploads/Simone-Riccio-Nofit-State-Circus-Tabu-2.jpg"
+- "/uploads/Tabu wilderness poster.jpg"
+- "/uploads/images.jpg"
+- "/uploads/download-1-1.jpg"
+- "/uploads/download-3.jpg"
+- "/uploads/download-2-1.jpg"
+- "/uploads/PT TABU 10 Natalia ST cNicola 7.jpg"
 
 ---
 Fear is the most widespread, undetected, un-acknowledged of taboos. It is only when a person with no fear appears in our life that we can go back to living
