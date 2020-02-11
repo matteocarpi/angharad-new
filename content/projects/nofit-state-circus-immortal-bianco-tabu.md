@@ -9,6 +9,7 @@ current_work: false
 video: true
 videoLink: https://www.youtube.com/watch?v=ezEBXinN2vM
 gallery:
+- "/uploads/download-2.jpg"
 - "/uploads/Award-winning-circus-comp-007.jpg"
 - "/uploads/nofitstate-1_21.jpg"
 - "/uploads/4oneyq5ij05fr6v705iywiugniznpb4cvxqdakfraam1-lst1142692.jpg"
