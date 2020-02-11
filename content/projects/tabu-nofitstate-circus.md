@@ -10,6 +10,7 @@ video: false
 videoLink: ''
 gallery:
 - "/uploads/Simone-Riccio-Nofit-State-Circus-Tabu-2.jpg"
+- "/uploads/images-1.jpg"
 - "/uploads/Tabu wilderness poster.jpg"
 - "/uploads/images.jpg"
 - "/uploads/download-1-1.jpg"
@@ -30,8 +31,8 @@ Leave your circus preconceptions behind and join us for a turbo charged, ninety-
 ‘a vividly entertaining and tumultuous new promenade production’  
 \-The Times
 
-Director -  Firenza Guidi
+**Director** -  Firenza Guidi
 
-Costume Design - Rhiannon Matthews, Angharad Matthews
+**Costume Design** - Rhiannon Matthews, Angharad Matthews
 
-Music - Peter Reynolds
+**Musical Director** - Peter Reynolds
