@@ -3,7 +3,7 @@ categories:
   performance: true
   design: false
   theatre_making: false
-date: 2020-02-11T18:20:14Z
+date: 2014-03-01T18:20:14Z
 title: Classic Campers - The classic way to travel New Zealand
 current_work: false
 video: true
