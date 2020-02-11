@@ -22,5 +22,8 @@ gallery:
 - "/uploads/11896351_10153065898186625_1309698324725422219_o.jpg"
 
 ---
+Taking the Welsh word ‘Awen’, or artistic muse, as its central theme Walk the Plank ran three separate ‘Awen’ training schools for outdoor arts practitioners in early 2015 in Carnaerfon, Castle y Bere and Newport, embracing a wide range of disciplines – from costume design, lantern making and choreography to aerial artistry, fire drawings and puppetry.
 
-**Performers -** Shan Cothi, Ballet Cymru, Wren Ball, Rosalind Brooks, Angharad Matthews, Hannah Darby, Nikki HIll, Jose Valencia, Fran Widdowson
+The finale performance of Ar Waith Ar Daith, A Welsh journey of myth and magic, became the largest ever outdoor production staged in Wales featuring over 600 participants involving: mass movement choreography, puppetry, a lantern procession, a parade of oarsmen and women from 25 Welsh sea rowing clubs, a new music composition from BAFTA award winning composer John Rea, a children’s choir, aerial performances, fire drawings, pyrotechnics and a centrepiece moving cauldron. Welsh actress Sian Cothi performed the central role of Cerdiwen.
+
+**Performers -** Sian Cothi, Ballet Cymru, Wren Ball, Rosalind Brooks, Angharad Matthews, Hannah Darby, Nikki HIll, Jose Valencia, Fran Widdowson, 
