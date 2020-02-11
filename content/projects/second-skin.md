@@ -17,7 +17,7 @@ gallery:
 - "/uploads/266290_289426794500205_948277215_o.jpg"
 
 ---
-Second Skin is a performance installation project that began its R & D stage 1 at Chapter Arts Centre in August 2012. 
+Second Skin is a performance installation project that began its R & D stage 1 at Chapter Arts Centre in August 2012. Supported by The Arts Council Wales and the Emerging artists Scheme with Volcano Theatre.
 
 Working with latex as the core material, the project is an exploration into the many skins we wear and shed and how these 'skins' inform and map the story our body is trying to tell.  
 
