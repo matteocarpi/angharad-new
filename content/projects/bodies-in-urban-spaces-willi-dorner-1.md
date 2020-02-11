@@ -3,7 +3,7 @@ categories:
   performance: true
   design: false
   theatre_making: false
-date: 2020-02-10T21:20:38Z
+date: 2012-06-01T22:00:00Z
 title: Bodies in Urban Spaces - Willi Dorner
 current_work: false
 video: false
@@ -18,4 +18,10 @@ gallery:
 - "/uploads/Adain-Avion_Bodies-in-Urban-Spaces-Swansea1-1600x900-1.jpg"
 
 ---
-Willi Dorner was commissioned by Marc Rees to produce Bodies in Urban Spaces in Wales, for Adain Avion, which also coincided with Swansea Dance Days, as part of Wales’ Cultural Olympiad Celebrations in June 2012.
+“bodies in urban spaces” is a temporarily intervention in diversified urban architectonical environment. The intention of “bodies in urban spaces” is to point out the urban functional structure and to uncover the restricted movement possibilities and behaviour as well as rules and limitations.  
+By placing the bodies in selected spots the interventions provoke a thinking process and produce irritation. Passers by, residents and audience are motivated and prompted to reflect their urban surrounding and there own movement behaviour and habits. “Bodies in urban spaces” invites the residents to walk their own city thus establishing a stronger relationship to their neighbourhood, district and town. The interventions are temporarily without leaving any traces behind, but imprints in the eye-witnesses\` memory.  
+  
+“bodies in urban spaces” is a moving trail, choreographed for a group of dancers. The performers lead the audience through selected parts of public and semi-public spaces. A chain of physical interventions set up very quickly and only existing temporarily, allows the viewer to perceive the same space or place in a new and different way - on the run.  
+The special quality of each place at various times of the day creates unique presentations.  
+  
+As part of Wales’ Cultural Olympiad Celebrations in June 2012, Willi Dorner was commissioned by Marc Rees to produce Bodies in Urban Spaces, for Adain Avion, which also coincided with Swansea Dance Days
