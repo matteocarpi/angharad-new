@@ -3,8 +3,8 @@ categories:
   performance: true
   design: false
   theatre_making: false
-date: 2020-01-16T20:17:39Z
-title: The Colliers Son
+date: 2020-01-16T20:17:39.000+00:00
+title: The Colliers Son - Tick Ashfield
 current_work: false
 video: true
 videoLink: ''
