@@ -20,3 +20,16 @@ gallery:
 - "/uploads/c2a9richard-davenport_10.jpg"
 
 ---
+BIANCO is a promenade experience unlike any other. With innovative rigging and counter- weighting techniques, BIANCO takes place above, behind and all around the audience, in an up-close and all-consuming theatrical spectacular.
+
+In partnership with the Eden Project. The promenade show, directed by Firenza Guidi, ran in the tented performance space throughout the summer, and was described by _This Is Cornwall_ as "an incredible experience". The show was then redeveloped to incorporate new ideas, acts and performers in 2013 to become _Bianco: Turning Savage_. It opened at The Roundhouse in April 2013, and was praised by _The Guardian_ newspaper for "combining first-rate skills with a joyful, unashamed pleasure". _Bianco: Turning Savage_ went on to tour venues across the UK in NoFit State's custom-designed big top spaceship tent, including a sell-out run at the Edinburgh Fringe Festival in August 2013. In 2014 the show toured to Perth, Australia, around Europe, and continued touring in 2015.
+
+Director - Firenza Guidi
+
+Music direction - David Murray
+
+Production Design - Saz Moir
+
+Lighting - Adam Cobbley 
+
+Costume Design - Rhiannon Matthews, Angharad Matthews
