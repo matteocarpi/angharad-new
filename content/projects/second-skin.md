@@ -25,8 +25,12 @@ The project undertakes a research process which unables the exploration of dance
 
 Second Skin Exhibition phase 2 - showing at Art in the Warehouse at Milgis Cardiff opening 1st March 2013
 
+Further development of the project will begin in spring 2020
+
 **Creation, Design, Performance** - Angharad Matthews
 
 **Photography** - Warren Orchard Photography
 
 **Film** - Simon Clode Films
+
+**Light sensor exploration** - Myles leadbetter
