@@ -10,8 +10,6 @@ video: true
 videoLink: https://youtu.be/c5kaqeikNq0
 gallery:
 - "/uploads/MCeditedforweb.jpg"
-- "/uploads/MCeditedforweb-2.jpg"
-- "/uploads/MCeditedforweb-1.jpg"
 current_work: false
 
 ---
