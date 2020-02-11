@@ -20,10 +20,16 @@ gallery:
 - "/uploads/IMG_2253.jpg"
 
 ---
-Adain Avion was a mobile art space created from the fuselage of a DC-9 airplane, discovered and transformed by Spanish sculptor and designer Eduardo Cajal. We celebrated its twentieth anniversary by bringing Avion to Wales in the summer of 2012.
+Adain Avion was Wales’s Artists taking the lead commission, funded by the National Lottery through Arts Council of Wales, included in the London 2012 Festival and part of London 2012 Cultural Olympiad.
+
+A mobile art space created from the fuselage of a DC-9 airplane, discovered and transformed by Spanish sculptor and designer Eduardo Cajal. 
 
 **Creator** - Marc Rees
 
 **Choreography** - Kitsch & Sync
 
-**Performers** - Kylie Anne Smith, Kim Noble, Lara ward, Angharad Matthews, Chloe Loftus, Rozalind Brookes, Elenor Brown 
+**Performers** - Kylie Anne Smith, Kim Noble, Lara ward, Angharad Matthews, Chloe Loftus, Rozalind Brookes, Elenor Brown
+
+**Produced by** Talesin Arts Centre, Swansea
+
+**Creative Producer**  - Siân Thomas.
