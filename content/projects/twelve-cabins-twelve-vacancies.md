@@ -37,8 +37,6 @@ Written, conceived, directed and performed by Chris Durnall with Angharad Matthe
 
 **Chapter Theatre, Market Road, Canton Cardiff, Wales**
 
-**Creative Team**
-
 **Writer** - Chris Durnall
 
 **Devised and Performed by -** Chris Durnall and Angharad Matthews
