@@ -36,4 +36,4 @@ London’s Southbank Centre for the first time, running from 23 November 2016 �
 
 **Costume Design** - Rhiannon Matthews, Angharad Matthews
 
-**Cast** - Lyndall Merry, Joachim Aussibal, Junior Barbosa, François Bouvier, Edd Casey, Delia Ceruti, Augusts Dakteris, Jani Foldi, Enni Lymi, Felipe Nardiello, Jessica O’Connor, Danilo Pacheco, Blaze Tarsha, Lee Tinnion, Cecilia Zucchetti, and musicians Matt Collins, Doug Kemp, Annette Loose, and Andy Moore.
+**Cast** - Lyndall Merry, Joachim Aussibal, Junior Barbosa, François Bouvier, Edd Casey, Delia Ceruti, Augusts Dakteris, Jani Foldi, Enni Lymi, Felipe Nardiello, Jessica O’Connor, Danilo Pacheco, Blaze Tarsha, Lee Tinnion, Cecilia Zucchetti, and musicians Matt Collins, Doug Kemp, Annette Loose, and Andy Moore
