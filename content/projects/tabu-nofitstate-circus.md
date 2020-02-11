@@ -26,3 +26,5 @@ Leave your circus preconceptions behind and join us for a turbo charged, ninety-
 Director -  Firenza Guidi
 
 Costume Design - Rhiannon Matthews, Angharad Matthews
+
+Music - Peter Reynolds
