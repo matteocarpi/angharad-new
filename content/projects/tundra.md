@@ -26,8 +26,6 @@ Best Dance Wales Theatre Awards 2017
 
 [To see the full piece, recorded as part of P.A.R.A.D.E. 2017 click here](https://www.youtube.com/watch?v=kblX5gqILyE&t=1185s)
 
-**CREATIVE TEAM**
-
 **Choreographer - Marcos Morau**
 
 **Choreographer's Assistants**: Marinba Rodruguez, Lorena Nogal & Lee Johnston
