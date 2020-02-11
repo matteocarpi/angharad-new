@@ -25,12 +25,15 @@ gallery:
 - "/uploads/C5D_4548.jpg"
 
 ---
-Research and development project
 
-Creative Team
+Research and development project Created by Angharad Matthews and NCDT. 
 
-Concept, Choreography, Direction - Angharad Matthews
+**Creation, Choreography, Direction** - Angharad Matthews
 
-Music and Sound Design - Tick Ashfield
+**Music and Sound Design** - Tick Ashfield
 
-Performers - Katie, Tamsin, Sarah , Rachel, Eloise Nancy Gwyn, Gemma Prangle
+**Performers** - Katie, Tamsin Griffiths, Sarah Mcgaughey, Rachel Pedley, Eloise Nancy Gwyn, Gemma Prangle, Sinnead TanishaMarie Ali
+
+Special thanks to 
+
+Rubicon dance and ACW
