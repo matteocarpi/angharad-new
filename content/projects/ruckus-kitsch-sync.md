@@ -21,4 +21,4 @@ gallery:
 ---
 _Ruckus_, Kitsch & Sync’s wrestling extravaganza directed by Kylie-Ann Smith. 26 performers – dancers, actresses and two bands – were brought together over two weeks to produce an hour long work in progress for an invited audience.
 
-Spring 2014
+Spring 2014 Chapter Arts Centre
