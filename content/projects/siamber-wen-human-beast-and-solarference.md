@@ -11,8 +11,8 @@ videoLink: https://vimeo.com/48647407
 gallery: []
 
 ---
-A promenade performance, from Human Beast and Solarference, directed by Joe Wild. A team of 5 artists bring music, dance, mask and Chinese pole together, in this haunting physical performance. Rooted in Welsh folk song, sliced with digital technology, sung into life: a dark story of incest and family. There is poetry, a may pole, a dance of carrion crows, and love-making of the darkest kind. 
+A promenade performance, from Human Beast and Solarference, directed by Joe Wild. A team of 5 artists bring music, dance, mask and Chinese pole together, in this haunting physical performance. Rooted in Welsh folk song, sliced with digital technology, sung into life: a dark story of incest and family. There is poetry, a may pole, a dance of carrion crows, and love-making of the darkest kind.
 
-**Created and performed by** - Joe Wild, Laura Moy, Ceri Elen, Nick Janaway, and Sarah Owen,  performed at Sherman Theatre, Cardiff, August 2009. www.solarference.co
+**Created and performed by** - Joe Wild, Laura Moy, Ceri Elen, Nick Janaway, and Sarah Owen
 
 **Costume Design** - Angharad Matthews
