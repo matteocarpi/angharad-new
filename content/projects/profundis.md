@@ -14,9 +14,9 @@ gallery:
 ---
 Playful, vibrant and provocative. Profundis dares us to ask questions about what things are, and what they are not. Roy Assaf's thoughtful movement is accompanied by whimsical wordplay and an exotic soundtrack featuring Egypt's Umm Kulthum.
 
-**CREATIVE TEAM**
-
 **Choreographer  -** ROY ASSAF
+
+**Dancers** - National Dance Company Wales
 
 **Music**: Uoon I, Alva Noto (Vrioon Electronic) Enta Omri, Umm Kulthum (Original 1964 Live Recording)
 
