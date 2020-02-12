@@ -49,6 +49,8 @@ Principality Stadium, Cardiff, 22 - 24 November
 
 **Costume Design** - Rhiannon Matthews, Angharad Matthews
 
+**Astronauts made by** Simon Windus
+
 **Set Design** - Buddug Jones
 
 **Lighting Design** - Ceri Thomas
