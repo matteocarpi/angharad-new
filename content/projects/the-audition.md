@@ -25,15 +25,14 @@ gallery:
 - "/uploads/C5D_4548.jpg"
 
 ---
-
-Research and development project Created by Angharad Matthews and NCDT. 
+Research and development project Created by Angharad Matthews and NCDT. A group of performers from a range of disciplines explore the trails and tribulations of life as a performer and the painstaking process of auditioning.   
 
 **Creation, Choreography, Direction** - Angharad Matthews
 
 **Music and Sound Design** - Tick Ashfield
 
-**Performers** - Katie, Tamsin Griffiths, Sarah Mcgaughey, Rachel Pedley, Eloise Nancy Gwyn, Gemma Prangle, Sinnead TanishaMarie Ali
+**Performers** - Katie, Tamsin Griffiths, Sarah Mcgaughey, Rachel Pedley, Eloise Nancy Gwyn, Gemma Prangle, Sinnead Tanisha Marie Ali
 
-Special thanks to 
+Special thanks to
 
 Rubicon dance and ACW
