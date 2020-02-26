@@ -51,7 +51,6 @@ const Project = ({ data }) => {
             </div>
           )}
           {images.map((image, index) => {
-            console.log(image);
             const square = {
               ...image.childImageSharp.fluid, 
               aspectRatio: 1 / 1,
