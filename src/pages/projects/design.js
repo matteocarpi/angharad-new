@@ -24,7 +24,7 @@ export default Design;
 
 export const query = graphql`
 query DesignQuery {
-    design: allMarkdownRemark(sort: {fields: [frontmatter___date], order: ASC}, filter: {frontmatter: {categories: {design: {eq: true}}}}) {
+    design: allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {categories: {design: {eq: true}}}}) {
       edges {
         node {
             fields {

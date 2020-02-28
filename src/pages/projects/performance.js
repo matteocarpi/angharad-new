@@ -24,7 +24,7 @@ export default Performance;
 
 export const query = graphql`
 query PerformanceQuery {
-    performance: allMarkdownRemark(sort: {fields: [frontmatter___date], order: ASC}, filter: {frontmatter: {categories: {performance: {eq: true}}}}) {
+    performance: allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {categories: {performance: {eq: true}}}}) {
       edges {
         node {
             fields {

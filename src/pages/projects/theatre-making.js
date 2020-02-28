@@ -24,7 +24,7 @@ export default TheatreMaking;
 
 export const query = graphql`
 query TheatreMakingQuery {
-    theatre_making: allMarkdownRemark(sort: {fields: [frontmatter___date], order: ASC}, filter: {frontmatter: {categories: {theatre_making: {eq: true}}}}) {
+    theatre_making: allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {categories: {theatre_making: {eq: true}}}}) {
       edges {
         node {
             fields {
