@@ -1,9 +1,9 @@
 ---
 categories:
-  performance: true
-  design: false
+  performance: false
+  design: true
   theatre_making: false
-date: 2014-07-26T17:28:49Z
+date: 2014-07-26T17:28:49.000+00:00
 title: Maudie's Rooms - The Roar Ensemble
 current_work: false
 video: false
