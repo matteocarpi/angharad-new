@@ -14,7 +14,7 @@ const ProjectList = (props) => {
           return (
             <PostPreview
               key={post.node.frontmatter.title}
-              image={post.node.frontmatter.gallery[0] && post.node.frontmatter.gallery[0].childImageSharp.fluid}
+              image={post.node.frontmatter.gallery[0] && post.node.frontmatter.gallery[0].childImageSharp ? post.node.frontmatter.gallery[0].childImageSharp.fluid : ''}
               title={post.node.frontmatter.title}
               excerpt={post.node.excerpt}
               slug={post.node.fields.slug}
