@@ -9,14 +9,7 @@ const PostPreview = (props) => {
   return (
     <div>
       <article className={styles.container}>
-        {/* <div 
-          style={{
-            backgroundImage: `url(${props.image})`,
-          }} 
-          
-        /> */}
         {props.image && <Img fluid={props.image} className={styles.image}/>}
-        {/* <img alt={props.image} src={props.image}/> */}
         <Link className={styles.title} to={props.slug}>
           <h3>{props.title}</h3>
         </Link>
