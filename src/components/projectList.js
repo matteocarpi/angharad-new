@@ -11,10 +11,11 @@ const ProjectList = (props) => {
       <h1 className={classnames(styles.title, props.title === 'Current Work' ? styles.left : styles.center)}>{props.title}</h1>
       <section className={styles.posts}>
         {posts.map((post) => {
+          {/* console.log(post.node.frontmatter.gallery[0]); */}
           return (
             <PostPreview
               key={post.node.frontmatter.title}
-              image={post.node.frontmatter.gallery[0] && post.node.frontmatter.gallery[0].childImageSharp ? post.node.frontmatter.gallery[0].childImageSharp.fluid : ''}
+              image={post.node.frontmatter.gallery && post.node.frontmatter.gallery[0] && post.node.frontmatter.gallery !== '[]' && post.node.frontmatter.gallery[0].childImageSharp ? post.node.frontmatter.gallery[0].childImageSharp.fluid : ''}
               title={post.node.frontmatter.title}
               excerpt={post.node.excerpt}
               slug={post.node.fields.slug}

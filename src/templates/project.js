@@ -26,7 +26,8 @@ const Project = ({ data }) => {
           >
             <FaChevronLeft className={styles.navIcon} onClick={() => setSelectedImage(selectedImage - 1)}/>
 
-            <Img className={styles.image} fluid={images[selectedImage] && images[selectedImage].childImageSharp.fluid}/>
+            {images && <Img className={styles.image} fluid={images[selectedImage] && images[selectedImage].childImageSharp && images[selectedImage].childImageSharp.fluid}/>
+            }
           
             <FaChevronRight
               className={styles.navIcon}
@@ -50,7 +51,7 @@ const Project = ({ data }) => {
               />
             </div>
           )}
-          {images.map((image, index) => {
+          {images && images.map((image, index) => {
             const square = {
               ...image.childImageSharp.fluid, 
               aspectRatio: 1 / 1,
