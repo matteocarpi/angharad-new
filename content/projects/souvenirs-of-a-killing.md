@@ -8,6 +8,8 @@ title: Souvenirs of a killing - Company of Sirens
 current_work: true
 video: false
 videoLink: ''
+gallery:
+- "/uploads/SOK poster .jpg"
 
 ---
 After Last years 'Twelve Cabins Twelve Vacancies' inspired by Hitchcock's Iconic Film 'Psycho', Souvenirs of a Killing inspired by Vertigo, is a further exploration into the connections we make between personal tragedy and art. How art directly mirrors life.
