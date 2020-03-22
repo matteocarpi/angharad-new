@@ -17,7 +17,6 @@ const Project = ({ data }) => {
   
   return (
     <Layout>
-      {/* ùTrigger a deploy mtfk */}
       <div className={styles.project}>
         <Modali.Modal
           {...lightbox}
