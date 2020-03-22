@@ -35,6 +35,7 @@
     "smooth-scroll": "^16.1.0"
   },
   "devDependencies": {
+    "netlify-cli": "^2.40.0",
     "prettier": "^1.18.2"
   },
   "keywords": [
