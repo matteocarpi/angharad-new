@@ -18,7 +18,7 @@ const Home = ({ data }) => {
       className={styles.titleSlide}
       >
         <div className={styles.title}>
-          <h1 className={universal.white}>Angharad Mattews</h1>
+          <h1 className={universal.white}>Angharad Matthews</h1>
           <h4 className={universal.white}>Performer - Designer - Theatre Maker</h4>
         </div>
 
