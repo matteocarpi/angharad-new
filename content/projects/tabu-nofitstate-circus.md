@@ -1,9 +1,9 @@
 ---
 categories:
-  performance: true
-  design: false
+  performance: false
+  design: true
   theatre_making: false
-date: 2020-02-11T16:33:38Z
+date: 2020-02-11T16:33:38.000+00:00
 title: Tabu - NoFitState Circus
 current_work: false
 video: false
