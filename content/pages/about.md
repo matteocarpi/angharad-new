@@ -18,7 +18,7 @@ biography: |-
   Drawing upon my expertise in design, my passion for visual story telling and the poetic body, my ambition is to create highly sensory, emotive work, which blurs the boundaries between theatre, dance and visual arts.
 cv: "/uploads/Angharad Matthews Design and Perfromance CV 2020.pdf"
 email: matthewsangharad@gmail.com
-headshot: "/uploads/17917157_10158756589550647_4441888046583517909_o.jpg"
+headshot: "/uploads/75251046_540680100043446_8876640542524440576_n.jpg"
 additional_links:
 - name: Facebook
   url: https://facebook.com
