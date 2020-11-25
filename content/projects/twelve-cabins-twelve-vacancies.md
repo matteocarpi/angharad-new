@@ -2,6 +2,11 @@
 date: 2020-02-29T23:00:00.000+00:00
 title: 'Twelve Cabins Twelve Vacancies '
 gallery:
+- "/uploads/_dsc3252.jpg"
+- "/uploads/_dsc3245.jpg"
+- "/uploads/_dsc3239.jpg"
+- "/uploads/_dsc3223.jpg"
+- "/uploads/_dsc2696.jpg"
 - "/uploads/62538368_10157298679323245_7953052879726575616_n.jpg"
 - "/uploads/68932029_10162558339770647_5492534826734977024_n.jpg"
 - "/uploads/64470484_10157298670993245_7853302878457298944_n.jpg"
