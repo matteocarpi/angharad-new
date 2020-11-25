@@ -9,6 +9,9 @@ current_work: true
 video: false
 videoLink: ''
 gallery:
+- "/uploads/image-4.jpg"
+- "/uploads/photo-from-chris-durnall-2-1536x867.jpg"
+- "/uploads/116886407_3018157371567020_4332003668053929904_o.jpg"
 - "/uploads/SOK poster .jpg"
 
 ---
