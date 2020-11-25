@@ -9,6 +9,8 @@ current_work: false
 video: true
 videoLink: https://vimeo.com/328074776
 gallery:
+- "/uploads/_u0b0995-20.jpg"
+- "/uploads/u0b1073-32.jpg"
 - "/uploads/smh-preview-flyer.pdf"
 - "/uploads/65091911_2360958574230828_2831373519630106624_o.jpg"
 - "/uploads/43851645_2179245512402136_6039615936854491136_o.jpg"
