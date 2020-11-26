@@ -4,7 +4,7 @@ categories:
   design: true
   theatre_making: false
 date: 2020-10-01T22:00:00Z
-title: You Me Human Tree - ETB
+title: You Me Human Tree - English Theatre Berlin
 current_work: false
 video: false
 videoLink: ''
