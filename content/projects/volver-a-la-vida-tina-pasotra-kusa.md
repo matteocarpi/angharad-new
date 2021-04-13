@@ -12,6 +12,7 @@ gallery:
 - "/uploads/screen-shot-2021-04-13-at-22-38-04.png"
 - "/uploads/screen-shot-2021-04-13-at-22-38-12.png"
 - "/uploads/screen-shot-2021-04-13-at-22-39-11.png"
+- "/uploads/screen-shot-2021-04-13-at-22-40-17.png"
 - "/uploads/screen-shot-2021-04-13-at-22-41-52.png"
 - "/uploads/screen-shot-2021-04-13-at-22-39-30.png"
 - "/uploads/screen-shot-2021-04-13-at-22-41-45.png"
