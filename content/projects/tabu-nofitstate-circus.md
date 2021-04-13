@@ -9,8 +9,8 @@ current_work: false
 video: false
 videoLink: ''
 gallery:
-- "/uploads/Simone-Riccio-Nofit-State-Circus-Tabu-2.jpg"
 - "/uploads/images-1.jpg"
+- "/uploads/Simone-Riccio-Nofit-State-Circus-Tabu-2.jpg"
 - "/uploads/Tabu wilderness poster.jpg"
 - "/uploads/images.jpg"
 - "/uploads/download-1-1.jpg"
