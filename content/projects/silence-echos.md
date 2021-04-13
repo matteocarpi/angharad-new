@@ -9,8 +9,8 @@ current_work: true
 video: false
 videoLink: ''
 gallery:
-- "/uploads/screen-shot-2021-04-13-at-19-58-01.png"
 - "/uploads/screen-shot-2021-04-13-at-19-59-12.png"
+- "/uploads/screen-shot-2021-04-13-at-19-58-01.png"
 - "/uploads/screen-shot-2021-04-13-at-20-01-49.png"
 - "/uploads/screen-shot-2021-04-13-at-20-00-43.png"
 - "/uploads/screen-shot-2021-04-13-at-20-08-42.png"
