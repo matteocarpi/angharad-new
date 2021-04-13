@@ -13,7 +13,7 @@ biography: |-
 
   As a creator, deviser and performer, I believe that multi disciplinary and cross cultural collaboration is vital in the continuation and growth of artistic practice.
 
-  My work explores universal themes rooted in human nature, society and culture, drawing inspiration from individual and collective experience.
+  My work explores universal themes of human consciousness , society and culture, drawing inspiration from individual and collective experience.
 
   Drawing upon my expertise in design, my passion for visual story telling and the poetic body, my ambition is to create highly sensory, emotive work, which blurs the boundaries between theatre, dance and visual arts.
 cv: "/uploads/angharad-matthews-cv-2020.pdf"
