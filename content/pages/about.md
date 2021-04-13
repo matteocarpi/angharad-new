@@ -16,7 +16,7 @@ biography: |-
   My work explores universal themes of human consciousness , society and culture, drawing inspiration from individual and collective experience.
 
   Drawing upon my expertise in design, my passion for visual story telling and the poetic body, my ambition is to create highly sensory, emotive work, which blurs the boundaries between theatre, dance and visual arts.
-cv: "/uploads/angharad-matthews-cv-2020.pdf"
+cv: "/uploads/angharad-matthews-cv-2021-english.pdf"
 email: matthewsangharad@gmail.com
 headshot: "/uploads/75251046_540680100043446_8876640542524440576_n.jpg"
 additional_links:
