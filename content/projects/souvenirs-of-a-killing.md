@@ -6,13 +6,20 @@ categories:
 date: 2020-06-18T20:02:28.000+00:00
 title: Souvenirs of a killing - Company of Sirens
 current_work: true
-video: false
-videoLink: ''
+video: true
+videoLink: https://www.youtube.com/watch?v=1f73S8jLrGg&t=6s
 gallery:
+- "/uploads/screen-shot-2020-11-29-at-14-48-19.png"
+- "/uploads/screen-shot-2020-11-29-at-14-52-01.png"
+- "/uploads/screen-shot-2020-11-29-at-15-05-31.png"
+- "/uploads/screen-shot-2020-11-29-at-14-48-43.png"
+- "/uploads/screen-shot-2020-11-29-at-14-51-43.png"
+- "/uploads/screen-shot-2020-11-29-at-14-49-07.png"
+- "/uploads/screen-shot-2020-11-29-at-14-48-55.png"
 - "/uploads/image-4.jpg"
 - "/uploads/safe_image.jpg"
-- "/uploads/photo-from-chris-durnall-2-1536x867.jpg"
 - "/uploads/116886407_3018157371567020_4332003668053929904_o.jpg"
+- "/uploads/hitchcock-redux-poster-draft-2-eye-blk_wht-without-review-copy-2-page-001.jpg"
 - "/uploads/SOK poster .jpg"
 
 ---
