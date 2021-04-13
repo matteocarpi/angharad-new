@@ -3,7 +3,7 @@ categories:
   performance: true
   design: false
   theatre_making: false
-date: 2021-04-13T20:34:42Z
+date: 2017-09-16T22:00:00Z
 title: Walk about Characters
 current_work: false
 video: false
