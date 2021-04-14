@@ -18,7 +18,7 @@ args=(
     --dir=public
 )
 
-if [[ "$DRONE_BRANCH" = main ]]; then
+if [[ "$DRONE_BRANCH" = master ]]; then
     args+=(--prod)
 fi
   
