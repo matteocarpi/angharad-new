@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
-import universal from "../styles/Universal.module.scss"
+import * as universal from "../styles/Universal.module.scss"
 import * as styles from "../styles/Home.module.scss"
 import ProjectList from "../components/projectList"
 import PropTypes from "prop-types"
