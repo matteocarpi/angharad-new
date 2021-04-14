@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import Layout from "../components/layout"
-import styles from "../styles/Project.module.scss"
 import { graphql } from "gatsby"
 import { PropTypes } from "prop-types"
 import Markdown from "markdown-to-jsx"
@@ -9,6 +8,7 @@ import { FaChevronRight, FaChevronLeft } from "react-icons/fa"
 import classnames from "classnames"
 import ReactPlayer from "react-player"
 import Img from "gatsby-image"
+import * as styles from "../styles/Project.module.scss"
 
 const Project = ({ data }) => {
   const images = data.postData.frontmatter.gallery
@@ -55,6 +55,7 @@ const Project = ({ data }) => {
             <div className={styles.videoWrap}>
               <ReactPlayer
                 url={data.postData.frontmatter.videoLink}
+                controls
                 width="100%"
                 height="100%"
               />
