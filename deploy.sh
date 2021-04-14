@@ -1,5 +1,4 @@
 #!/bin/bash
-
 set -e
 
 if [ -z "$NETLIFY_AUTH_TOKEN" ]; then
@@ -12,11 +11,15 @@ if [ -z "$NETLIFY_SITE_ID" ]; then
     exit 1
 fi
 
-if [ "$TRAVIS_BRANCH" = "master" ]; then
-    npx netlify deploy \
-        --message="$TRAVIS_BRANCH@$(git rev-parse --short HEAD)" \
-        --auth="$NETLIFY_AUTH_TOKEN" \
-        --site="$NETLIFY_SITE_ID" \
-        --dir=public \
-        --prod
+args=(
+    --message="@$(git rev-parse --short HEAD)"
+    --auth=""
+    --site=""
+    --dir=public
+)
+
+if [[ "$DRONE_BRANCH" = main ]]; then
+    args+=(--prod)
 fi
+  
+npx netlify deploy "${args[@]}"
