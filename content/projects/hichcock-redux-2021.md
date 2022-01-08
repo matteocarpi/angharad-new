@@ -9,7 +9,8 @@ current_work: true
 video: false
 videoLink: ''
 gallery:
-- "/uploads/redux-115.jpg"
+- "/uploads/redux-3-2.jpg"
+- "/uploads/redux-31-2.jpg"
 - "/uploads/redux-112-2.jpg"
 - "/uploads/redux-114.jpg"
 - "/uploads/redux-41.jpg"
@@ -17,11 +18,10 @@ gallery:
 - "/uploads/redux-12.jpg"
 - "/uploads/redux-106-2.jpg"
 - "/uploads/redux-20.jpg"
-- "/uploads/redux-31-2.jpg"
 - "/uploads/redux-89.jpg"
 - "/uploads/redux-43.jpg"
-- "/uploads/redux-3-2.jpg"
 - "/uploads/redux-32-2.jpg"
+- "/uploads/redux-115.jpg"
 - "/uploads/redux-53-2.jpg"
 - "/uploads/redux-119.jpg"
 - "/uploads/redux-68.jpg"
@@ -61,16 +61,31 @@ gallery:
 - "/uploads/redux-103.jpg"
 
 ---
-### Hitchcock Redux 
+### Hitchcock Redux
 
-Created and performed by Company of Sirens - Chris Durnall, and  Angharad Matthews 
+**Company of Sirens present:  
+Hitchcock Redux (Twelve Cabins Twelve Vacancies & Souvenirs of a Killing)**
 
-Writer - Chris Durnall
+On a hot August day in 1968, while watching a televised broadcast of Alfred Hitchcock’s Psycho, his father died. Four years later a girl disappears in terrible circumstances.
 
-Design - Angharad Matthews
+Two events from the past, captured and preserved through two classic films of the 1960s, Hitchcock Redux weaves together two of cinema’s most well-known stories with two others that are far more personal.
 
-Music - Eren
+Described at its premier by the Guardian as “a fascinating meditation on grief”, Hitchcock Redux examines the moments when life connects with art. To what extent does artwork, film and literature filter our memories, becoming more crucial to those memories than the events themselves?
 
-Photographs - Noel Dacey 
+Written, directed and performed by Chris Durnall with Angharad Matthews, featuring original music composed and performed live by Eren.
 
-Chapter Arts Centre - October 2021
+Part two of an ongoing project from Company of Sirens, funded by Arts Council of Wales and National Lottery.
+
+**+ post-show Q&A on Tuesday 12 October with members of the cast**
+
+**Created and performed by Company of Sirens** - Chris Durnall, and  Angharad Matthews
+
+**Writer** - Chris Durnall
+
+**Design** - Angharad Matthews
+
+**Music** - Eren
+
+**Photographs** - Noel Dacey
+
+**Chapter Arts Centre - October 2021**
