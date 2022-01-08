@@ -1,7 +1,7 @@
 ---
 title: About
 biography: |-
-  I am a Theatre Maker, Performer, and Designer from Wales UK.
+  I am a Performer, Designer, and Performance Maker,  from Wales UK.
 
   After graduating from the Royal Welsh Collage of Music and Drama in 2005, with a BA hons in Theatre Design, I began my career touring throughout Wales and Europe with international directors, choreographers and performance makers, specialising in costume and set design, for theatre, dance and circus.
 
@@ -13,7 +13,7 @@ biography: |-
 
   As a creator, deviser and performer, I believe that multi disciplinary and cross cultural collaboration is vital in the continuation and growth of artistic practice.
 
-  My work explores universal themes of human consciousness , society and culture, drawing inspiration from individual and collective experience.
+  My work explores universal themes of human consciousness, society and culture, drawing inspiration from individual and collective experience.
 
   Drawing upon my expertise in design, my passion for visual story telling and the poetic body, my ambition is to create highly sensory, emotive work, which blurs the boundaries between theatre, dance and visual arts.
 cv: "/uploads/angharad-matthews-cv-2021-english.pdf"
