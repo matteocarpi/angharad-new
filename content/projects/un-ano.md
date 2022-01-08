@@ -40,8 +40,6 @@ July 3, 2021 3 p.m.
 
 Duration approx. 40 minutes
 
-Price: 25/20/15 euros (supporter / medium / reduced price)
-
 Location: Nou Mitte
 
 Ticket orders and information: thomas@noutango.berlin, 0179-9492761
