@@ -3,8 +3,8 @@ categories:
   performance: true
   design: false
   theatre_making: false
-date: 2021-04-15T17:35:13Z
-title: "'Repeat' 2"
+date: 2021-04-15T17:35:13.000+00:00
+title: "'Repeat' "
 current_work: false
 video: true
 videoLink: https://youtu.be/xe3UCFiJPEE
@@ -18,3 +18,4 @@ gallery:
 - "/uploads/screen-shot-2021-04-15-at-21-05-09.png"
 
 ---
+Experimental dance video exploring the physical relationship with time, body and space. Repetition, broken time, an endless cycle, living in a continuous loop like a doll in a clockwork house, one dancer, two doors and only the supporting surfaces of the wall and floor to push against. 
