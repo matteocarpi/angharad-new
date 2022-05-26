@@ -9,13 +9,13 @@ current_work: false
 video: false
 videoLink: ''
 gallery:
-- "/uploads/etb_coolaid_visualcpaul-netzer.jpg"
-- "/uploads/etb_cool-aid_proben7_photo_stefania-migliorati-scaled.jpg"
 - "/uploads/etb_coolaid5_photostefaniamigliorati-scaled.jpg"
+- "/uploads/etb_cool-aid_proben7_photo_stefania-migliorati-scaled.jpg"
 - "/uploads/etb_cool-aid_3_photo_stefania-migliorati-scaled.jpg"
 - "/uploads/etb_cool-aid_proben2_photo_stefania-migliorati-scaled.jpg"
 - "/uploads/etb_cool-aid_proben4_photo_stefania-migliorati-scaled.jpg"
 - "/uploads/etb_cool-aid_proben5_photo_stefania-migliorati-scaled.jpg"
+- "/uploads/etb_coolaid_visualcpaul-netzer.jpg"
 
 ---
 **COOL AID - English Theatre Berlin**
