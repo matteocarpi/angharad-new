@@ -3,12 +3,13 @@ categories:
   performance: true
   design: false
   theatre_making: false
-date: 2016-03-31T22:30:51Z
+date: 2016-03-31T22:30:51.000+00:00
 title: 'Tokyo Space Dance - Butoh Project '
 current_work: false
 video: false
 videoLink: ''
 gallery:
+- "/uploads/5.jpg"
 - "/uploads/img_6077.jpg"
 - "/uploads/img_6082.jpg"
 - "/uploads/img_6235-1.jpg"
@@ -17,6 +18,7 @@ gallery:
 - "/uploads/img_6408.jpg"
 - "/uploads/img_6449.jpg"
 - "/uploads/img_6526.jpg"
+- "/uploads/1.jpg"
 - "/uploads/img_9647.jpg"
 - "/uploads/img_9624.jpg"
 - "/uploads/img_9598.jpg"
@@ -47,3 +49,16 @@ gallery:
 - "/uploads/img_7167.jpg"
 
 ---
+A one month residency in Tokyo Japan, working Tetsuro Fukuhara Butoh Dancer, Space Dance Choreographer, artist, writer and Director of Tokyo Space Dance Museum and School.
+
+On 1972-1975, He studied “Improvisation Butoh” from Akira Kasai. He belongs to the second generation of Butoh. On 1975, He started his own works in Tokyo. On 1983, He joined “**Story of Seven Herbs**” directed by Tatsumi Hijikata, then he founded Tokyo Space Dance. On 1990-1991, He made his debut “**Tree of Tarkovsky**” in Paris, Berlin, Montreal, Toronto, and New York supported by Japan Foundation and Canada Council.
+
+Tetsuro Fukuhara started his activity as a Japanese Butoh Choreographer and he created “**SPACE DANCE**” with the concept of “**Dance & Design**” through the experience of doubting the social position of art. In 2001, at the United Nations in New York he held “[**SPACE DANCE Performance**](https://sdee-museum.com/plan-of-space-museum/sd-school/)” and “[**Kids SPACE DANCE**](https://sdee-museum.com/plan-of-space-museum/kids/)“, and in 2004-2006, at Japan Aerospace Exploration Agency(JAXA) in Tokyo he held a joint research as a representative researcher about “**GRAVITY**” and “**BODY**” together with the architects, designers, media art curator, cognitive psychologists, robot developers, brain scientists, astro-biologists. After that, his book “[**VISION of BODY**](https://sdee-museum.com/welcome/museum-shop/)” was published and he held a memorial lecture “**APAROS – AI Robot as My Alter Ego**” at Copernicus Science Centre in Warsaw.
+
+Based on his activities as a SPACE DANCE Artist, it is important to explore and express from several sides of “**BODY**“, “**SCIENCE**“, “**DESIGN**“, “**ARCHITECTURE**“, “**STORY**“, and “**AI**“, so his activities are multi-dimensional.
+
+[https://sdee-museum.com/tetsuro/eg/](https://sdee-museum.com/tetsuro/eg/ "https://sdee-museum.com/tetsuro/eg/")
+
+Images/photographs - Tetsuro Fukuhara
+
+Dancer - Angharad Matthews
