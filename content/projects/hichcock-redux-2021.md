@@ -4,7 +4,7 @@ categories:
   design: false
   theatre_making: false
 date: 2021-12-09T18:16:38Z
-title: Hichcock Redux 2021
+title: 'Hichcock Redux '
 current_work: true
 video: false
 videoLink: ''
