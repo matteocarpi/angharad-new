@@ -2,8 +2,8 @@
 date: 2020-02-29T23:00:00.000+00:00
 title: 'Twelve Cabins Twelve Vacancies '
 gallery:
-- "/uploads/64417738_2131421096907323_5270663585092075520_o.jpg"
 - "/uploads/64221616_10157301002218245_3894641511828029440_o.jpg"
+- "/uploads/64417738_2131421096907323_5270663585092075520_o.jpg"
 - "/uploads/62604463_2131417076907725_7786863548319137792_o.jpg"
 - "/uploads/_dsc3252.jpg"
 - "/uploads/_dsc3245.jpg"
@@ -24,7 +24,7 @@ categories:
   performance: true
   design: true
   theatre_making: true
-current_work: true
+current_work: false
 video: false
 videoLink: ''
 
