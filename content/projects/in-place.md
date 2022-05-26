@@ -4,7 +4,7 @@ categories:
   design: true
   theatre_making: false
 date: 2021-10-10T13:32:10Z
-title: IN PLACE
+title: In Place
 current_work: false
 video: false
 videoLink: ''
@@ -27,9 +27,8 @@ gallery:
 - "/uploads/alaohswq.jpg"
 
 ---
-IN PLACE
 
-#### **In Place** is an hour long show in 2 sections, In Place One and In Place Two, investigating the architecture of 4 distinct art spaces around Ireland, in Dublin (IMMA), Ballina (Ballina Arts Centre), Cork (Uillinn:West Cork Arts Centre) and Limerick (Limerick City Gallery).
+#### In Place is an hour long show in 2 sections, In Place One and In Place Two, investigating the architecture of 4 distinct art spaces around Ireland, in Dublin (IMMA), Ballina (Ballina Arts Centre), Cork (Uillinn:West Cork Arts Centre) and Limerick (Limerick City Gallery).
 
 Choreographed by Croí Glan Co-Artistic Director Tara Brandel, In Place plays with the relationship between the fragility and durability of the soft human form, and the surfaces and spaces of the architecture in which the performers are situated.
 
@@ -39,7 +38,7 @@ _In Place Two_ is an intimate duet for Croí Glan Co-Artistic Director and disab
 
 Seen together these two related and contrasting works are an aural and visual feast for the senses offering insights into how our environment shapes our trust, attachments and closeness.
 
-**Credits:**   
+**Credits:**  
 **Choreographer:** Tara Brandel  
 **Performers:** Tara Brandel (In Place One) Linda Fearon and Leighton Morrison (In Place Two)  
 **Lighting:** SJ Shiels  
