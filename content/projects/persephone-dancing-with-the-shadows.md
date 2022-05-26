@@ -5,7 +5,7 @@ categories:
   theatre_making: true
 date: 2020-01-14T16:11:32.000+00:00
 title: Persephone - Dancing with the Shadows
-current_work: true
+current_work: false
 video: false
 videoLink: ''
 gallery:
