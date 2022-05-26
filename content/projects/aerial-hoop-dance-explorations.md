@@ -3,7 +3,7 @@ categories:
   performance: true
   design: false
   theatre_making: false
-date: 2018-08-16T16:51:14Z
+date: 2018-08-16T16:51:14.000+00:00
 title: 'Aerial Hoop/Dance Explorations '
 current_work: false
 video: true
@@ -24,3 +24,4 @@ gallery:
 - "/uploads/screen-shot-2021-04-15-at-18-43-53.png"
 
 ---
+Aerial Hoop/Dance exploration working with the aerial hoop as a partner in connection with the floor and reflection of light.
