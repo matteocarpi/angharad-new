@@ -3,7 +3,7 @@ categories:
   performance: true
   design: false
   theatre_making: true
-date: 2018-03-01T23:00:00Z
+date: 2018-03-01T23:00:00.000+00:00
 title: LISPA Gallery
 current_work: false
 video: false
@@ -22,3 +22,4 @@ gallery:
 - "/uploads/p1030823.jpg"
 
 ---
+A collection of photographs from mask, clown training, bouffon and ensemble performances at LISPA now Arthaus Berlin. 
