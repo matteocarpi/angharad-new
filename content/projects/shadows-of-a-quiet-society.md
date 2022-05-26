@@ -9,12 +9,12 @@ current_work: false
 video: true
 videoLink: https://www.youtube.com/watch?v=waYKJQ7ijw8&feature=emb_logo
 gallery:
+- "/uploads/13403941_1615318172112093_7075280042491543926_o.jpg"
+- "/uploads/13432142_1615318125445431_9179340241367880944_n.jpg"
+- "/uploads/13450848_1615318148778762_2477649150576003237_n.jpg"
+- "/uploads/13406997_1615318185445425_7535731177915725012_n.jpg"
 - "/uploads/13407238_1615318122112098_2834449224360579866_n.jpg"
 - "/uploads/13445616_1615318115445432_4426442572861240721_n.jpg"
-- "/uploads/13432142_1615318125445431_9179340241367880944_n.jpg"
-- "/uploads/13406997_1615318185445425_7535731177915725012_n.jpg"
-- "/uploads/13403941_1615318172112093_7075280042491543926_o.jpg"
-- "/uploads/13450848_1615318148778762_2477649150576003237_n.jpg"
 
 ---
 _Shadow of a Quiet Society_ follows on from the success of Gwyn Emberton Dance’s award winning dance theatre production _My People_.
@@ -30,3 +30,19 @@ An all-female cast of internationally renowned dancers, including Eddie Ladd, po
 “_A choreographer who is able to excite and stimulate but also entertain with flowing, aesthetically pleasing dance_”
 
 \- Arts Scene in Wales
+
+Choreographer - Gwyn Emberton
+
+Dancers - Sophia Preidel, Eleesha Drennan, Eddie Ladd, Neus Gil Cortes,  AnaÏs Michelin, Johanna Nuutinen
+
+Lighting design - Ben Cowens and Aideen Malone
+
+Music and Sound design  - Benjamin Talbot and Tic Ashfield
+
+Costume and Stage Design - Angharad Matthews
+
+Photos - Warren Orchard
+
+Trailer - Simon Clode Films
+
+[https://youtu.be/UZqVFNhgxL8](https://youtu.be/UZqVFNhgxL8 "https://youtu.be/UZqVFNhgxL8")
