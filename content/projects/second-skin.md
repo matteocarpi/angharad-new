@@ -9,9 +9,9 @@ current_work: false
 video: false
 videoLink: ''
 gallery:
+- "/uploads/240045_289426874500197_2008900357_o.jpg"
 - "/uploads/193121_289428257833392_1152749777_o.jpg"
 - "/uploads/335124_289426224500262_1707251345_o.jpg"
-- "/uploads/240045_289426874500197_2008900357_o.jpg"
 - "/uploads/193114_289426434500241_1480762421_o.jpg"
 - "/uploads/335222_289427054500179_957672316_o 2.jpg"
 - "/uploads/324271_289427304500154_1976988807_o.jpg"
@@ -34,9 +34,9 @@ gallery:
 ---
 Second Skin is a performance installation project that began its R & D stage 1 at Chapter Arts Centre in August 2012. Supported by The Arts Council Wales and the Emerging artists Scheme with Volcano Theatre.
 
-Working with latex as the core material, the project is an exploration into the many skins we wear and shed and how these 'skins' inform and map the story our body is trying to tell.  
+Working with latex as the core material, the project is an exploration into the many skins we wear and shed and the deep shadows housed within.
 
-The project undertakes a research process which unables the exploration of dance and movement within the context of design led performance art. It explores the relationship between costume, performer and environment to create a richly layered performance landscape. 
+The project undertakes a research process which enables the exploration of dance and movement within the context of design led performance art. It explores the relationship between costume, performer and environment to create a richly layered performance landscape.
 
 Second Skin Exhibition phase 2 - showing at Art in the Warehouse at Milgis Cardiff opening 1st March 2013
 
