@@ -1,5 +1,5 @@
 ---
 title: Home
-home_picture: "/uploads/img_5774.JPG"
+home_picture: "/uploads/redux-397.jpg"
 
 ---
