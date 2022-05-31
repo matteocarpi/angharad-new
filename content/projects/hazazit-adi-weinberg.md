@@ -1,7 +1,7 @@
 ---
 categories:
-  performance: true
-  design: false
+  performance: false
+  design: true
   theatre_making: false
 date: 2022-05-25T11:03:25Z
 title: Hazazit - Adi Weinberg
