@@ -6,8 +6,8 @@ categories:
 date: 2021-12-09T18:16:38Z
 title: 'Hichcock Redux '
 current_work: true
-video: false
-videoLink: ''
+video: true
+videoLink: https://www.youtube.com/watch?v=GweN9Sr3lnA
 gallery:
 - "/uploads/redux-3-2.jpg"
 - "/uploads/redux-31-2.jpg"
