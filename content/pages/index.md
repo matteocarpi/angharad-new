@@ -1,5 +1,5 @@
 ---
 title: Home
-home_picture: "/uploads/redux-397.jpg"
+home_picture: "/uploads/ang-red-legs-1.png"
 
 ---
