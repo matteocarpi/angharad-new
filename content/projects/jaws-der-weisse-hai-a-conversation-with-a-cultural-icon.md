@@ -5,7 +5,7 @@ categories:
   theatre_making: false
 date: 2022-09-21T17:38:47Z
 title: JAWS/DER WEISSE HAI - A Conversation With a Cultural Icon
-current_work: false
+current_work: true
 video: false
 videoLink: ''
 gallery:
