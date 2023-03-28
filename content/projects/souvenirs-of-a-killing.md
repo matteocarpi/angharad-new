@@ -5,7 +5,7 @@ categories:
   theatre_making: true
 date: 2020-06-18T20:02:28.000+00:00
 title: Souvenirs of a killing - Company of Sirens
-current_work: true
+current_work: false
 video: true
 videoLink: https://www.youtube.com/watch?v=1f73S8jLrGg&t=6s
 gallery:
