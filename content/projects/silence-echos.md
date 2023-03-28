@@ -5,7 +5,7 @@ categories:
   theatre_making: true
 date: 2018-06-28T20:32:20.000+00:00
 title: 'Silence Echos - Work in Progress '
-current_work: true
+current_work: false
 video: false
 videoLink: ''
 gallery:
