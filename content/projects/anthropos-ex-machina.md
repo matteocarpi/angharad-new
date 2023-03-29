@@ -9,7 +9,12 @@ current_work: true
 video: false
 videoLink: ''
 gallery:
+- "/uploads/untitled2_20230123212424.png"
+- "/uploads/untitled1_20230120200633.png"
+- "/uploads/5262595133000501137_121.jpg"
+- "/uploads/thumbnail_-5262595133000501135_121.jpg"
 - "/uploads/dl_landscape_2s_aem_flyer_2-0text.jpg"
+- "/uploads/thumbnail_-5235898191814183378_121.jpg"
 
 ---
 #### ANTHROPOS EX (MACHINA)
