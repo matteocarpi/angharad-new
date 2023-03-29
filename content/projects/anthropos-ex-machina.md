@@ -8,7 +8,8 @@ title: 'ANTHROPOS EX (MACHINA) '
 current_work: true
 video: false
 videoLink: ''
-gallery: []
+gallery:
+- "/uploads/dl_landscape_2s_aem_flyer_2-0text.jpg"
 
 ---
 #### ANTHROPOS EX (MACHINA)
