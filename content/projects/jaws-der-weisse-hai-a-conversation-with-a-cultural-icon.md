@@ -9,6 +9,7 @@ current_work: true
 video: false
 videoLink: ''
 gallery:
+- "/uploads/_dsc7674-1-copy.jpg"
 - "/uploads/_dsc7677-1-copy.jpg"
 - "/uploads/_dsc7720-1-copy.jpg"
 - "/uploads/_dsc6941-1-copy.jpg"
@@ -16,7 +17,6 @@ gallery:
 - "/uploads/_dsc6957-1.jpg"
 - "/uploads/_dsc7523-1-copy.jpg"
 - "/uploads/_dsc7692-1-copy.jpg"
-- "/uploads/_dsc7674-1-copy.jpg"
 - "/uploads/_dsc7583-1-copy.jpg"
 - "/uploads/_dsc7565-1-copy.jpg"
 - "/uploads/_dsc7463-1-copy.jpg"
