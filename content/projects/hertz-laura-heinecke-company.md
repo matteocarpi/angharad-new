@@ -6,9 +6,15 @@ categories:
 date: 2022-11-10T19:33:09Z
 title: HERTZ - Laura Heinecke & Company
 current_work: false
-video: false
-videoLink: ''
+video: true
+videoLink: https://vimeo.com/802504683
 gallery:
+- "/uploads/hertz-die-welt-ist-schwingungen_03858-fotojenniferrohrbacher.jpg"
+- "/uploads/hertz-die-welt-ist-schwingungen_03721-fotojenniferrohrbacher.jpg"
+- "/uploads/hertz-die-welt-ist-schwingungen_03706-fotojenniferrohrbacher.jpg"
+- "/uploads/hertz-die-welt-ist-schwingungen_03658-fotojenniferrohrbacher.jpg"
+- "/uploads/hertz-die-welt-ist-schwingungen_03646-fotojenniferrohrbacher.jpg"
+- "/uploads/hertz-die-welt-ist-schwingungen_3333-fotojenniferrohrbacher.jpg"
 - "/uploads/rz_fab_laura_hertz_a1-plakat_06.jpg"
 
 ---
