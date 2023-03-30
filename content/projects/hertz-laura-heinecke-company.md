@@ -5,7 +5,7 @@ categories:
   theatre_making: false
 date: 2022-11-10T19:33:09Z
 title: HERTZ - Laura Heinecke & Company
-current_work: false
+current_work: true
 video: true
 videoLink: https://vimeo.com/802504683
 gallery:
